@@ -17,3 +17,6 @@ You should see a green check mark, like this:
 If AI Search is NOT active, please click to go to the [Appendix Section A3: AI Search Set-Up](appendix/section-a3-ai-search-set-up.md) and follow the steps to repair your instance.&#x20;
 
 Otherwise, proceed to the lab.
+
+{% include ".gitbook/includes/username-admin-password-8....md" %}
+
