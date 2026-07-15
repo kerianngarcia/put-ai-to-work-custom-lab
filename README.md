@@ -1,4 +1,8 @@
-# Welcome | World Forums and Summits Learning Labs 2026
+---
+coverY: 0
+---
+
+# Welcome | Higher Ed Summit 2026
 
 For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). This page is also available as [Markdown](welcome.md).
 

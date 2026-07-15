@@ -1,6 +1,6 @@
-# Summary
+# Table of contents
 
-* [Welcome | World Forums and Summits Learning Labs 2026](README.md)
+* [Welcome | Higher Ed Summit 2026](README.md)
 * [Appendix | World Forums and Summits Learning Labs 2026](appendix.md)
 * [appendix.md](appendix.md)
 * [Lab Objectives | World Forums and Summits Learning Labs 2026](lab-objectives.md)
@@ -68,9 +68,9 @@
   * [section-8.2-test-finalize-and-publish-your-skill.md](section-8.-triage-agent-assignment-group-selector-optional/section-8.2-test-finalize-and-publish-your-skill.md)
   * [section-8.3-building-ai-agents.md](section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents.md)
   * [section-8.4-finalize-and-test-the-agentic-workflow.md](section-8.-triage-agent-assignment-group-selector-optional/section-8.4-finalize-and-test-the-agentic-workflow.md)
-  * [Section 8.1 Now Assist Skill Kit | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.md)
-  * [Section 8.2 Test, finalize and publish your skill | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.md)
-  * [Section 8.3 Building AI Agents | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.md)
+  * [Section 8.4 Finalize and test the Agentic Workflow | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.md)
+  * [Section 8.2 Test, finalize and publish your skill | World Forums and Summits Learning Labs 2026](/broken/pages/oBfM8jEhx6C53kSRbQrb)
+  * [Section 8.3 Building AI Agents | World Forums and Summits Learning Labs 2026](/broken/pages/oBfM8jEhx6C53kSRbQrb)
   * [Section 8.4 Finalize and test the Agentic Workflow | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.md)
     * [NASK Tool 1: Lookup incident descriptions | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.1-now-assist-skill-kit/nask-tool-1-lookup-incident-descriptions.md)
     * [nask-tool-1-lookup-incident-descriptions.md](section-8.-triage-agent-assignment-group-selector-optional/section-8.1-now-assist-skill-kit/nask-tool-1-lookup-incident-descriptions.md)
