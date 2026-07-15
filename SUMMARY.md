@@ -1,11 +1,10 @@
 # Table of contents
 
 * [Welcome | Higher Ed Summit 2026](README.md)
-* [Appendix | World Forums and Summits Learning Labs 2026](appendix.md)
+* [Lab Objectives | Higher Ed Summit 2026](lab-objectives.md)
+* [Lab Preparation | Higher Ed Summit 2026](lab-preparation.md)
 * [appendix.md](appendix.md)
-* [Lab Objectives | World Forums and Summits Learning Labs 2026](lab-objectives.md)
 * [lab-objectives.md](lab-objectives.md)
-* [Lab preparation | World Forums and Summits Learning Labs 2026](lab-preparation.md)
 * [lab-preparation.md](lab-preparation.md)
 * [section-1.-start-using-gen-ai-on-day-1.md](section-1.-start-using-gen-ai-on-day-1.md)
 * [Section 1. Start using Gen AI on Day 1 | World Forums and Summits Learning Labs 2026](section-1.md)
@@ -82,3 +81,4 @@
     * [duplicate-ootb-agentic-workflow.md](section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents/duplicate-ootb-agentic-workflow.md)
     * [Triage and Categorize ITSM Incidents | World Forums and Summits Learning Labs 2026](section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents/triage-and-categorize-itsm-incidents.md)
     * [triage-and-categorize-itsm-incidents.md](section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents/triage-and-categorize-itsm-incidents.md)
+* [Appendix | World Forums and Summits Learning Labs 2026](appendix.md)
