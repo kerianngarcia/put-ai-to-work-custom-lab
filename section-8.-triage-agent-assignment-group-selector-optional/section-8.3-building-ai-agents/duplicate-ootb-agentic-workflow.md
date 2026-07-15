@@ -1,22 +1,25 @@
-# duplicate-ootb-agentic-workflow.md
+# Duplicate OOTB Agentic Workflow | World Forums and Summits Learning Labs 2026
+
+## duplicate-ootb-agentic-workflow.md
 
 > For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents/duplicate-ootb-agentic-workflow.md).
-# Duplicate OOTB Agentic Workflow
-1\. Open the Agentic Workflow again via the “Create and manage” tab, OR when still in the testing console click “Edit workflow”
-\
+
+## Duplicate OOTB Agentic Workflow
+
+1\. Open the Agentic Workflow again via the “Create and manage” tab, OR when still in the testing console click “Edit workflow”\
 2\. On the right side of the screen, you will see a button with three vertical dots, click this to Duplicate the agentic workflow:
 
-![](/files/nyqFsJqyGectCkwZaMEv)
-
-3\. Give your copy a name – use your imagination J
-\
+3\. Give your copy a name – use your imagination J\
 4\. Change the description so it includes the fact that we want to determine the assignment group:
+
 {% code overflow="wrap" %}
 ```
 This agentic workflow enables fulfillers to identify the category, subcategory, service, offering, configuration item and assignment group for an incident automatically, and finally link a major incident or problem.
 ```
 {% endcode %}
+
 5\. Change the list of steps as well, so that it includes an extra AI Agent to be called in the workflow:
+
 {% code overflow="wrap" %}
 ```
 IMPORTANT:
@@ -38,8 +41,7 @@ IMPORTANT:
 - Purpose: Check for any related Major Incidents or Problems and link them to the current incident if a match is found.
 ```
 {% endcode %}
-6\. Create a new Version (version 2).
 
-![](/files/XZ15oNFFknfcSNbWcYeI)
+6\\. Create a new Version (version 2).
 
 7. Click “Save and continue”

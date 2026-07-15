@@ -1,43 +1,35 @@
 # section-2.4-optional-build-an-ai-agent-that-checks-outages-in-similar-incidents.md
 
+## section-2.4-optional-build-an-ai-agent-that-checks-outages-in-similar-incidents.md
+
 > For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-2.-building-agents-and-use-cases/section-2.4-optional-build-an-ai-agent-that-checks-outages-in-similar-incidents.md).
-# Section 2.4 - OPTIONAL- Build an AI Agent that checks outages in similar incidents
+
+## Section 2.4 - OPTIONAL- Build an AI Agent that checks outages in similar incidents
+
 First, let’s create an outage in incident INC0010248.
+
 1. Open the incidents table (\*\*All > Incident > All)\*\*
 2. Search for I\*\*NC0010248\*\* and open it
 3. Scroll down to the bottom of the page, and select the \*\*Outages tab.\*\* If the tab is not visible, ask your instructor how you can add it as a related list.
-4. Click \*\*New\*\*
-![](/files/0045KK2XEFW2duhfg5p9)
-
-5. In the \*\*Outage New record page\*\*, select \*\*Degradation\*\* from the Type list, and fill in the T\*\*ask number\*\* field with the incident number \*\*“INC0010248\*\*”:
-![](/files/oR8XohMTggMrx0gXaT1W)
-
+4. Click \*\*New\*\*&#x20;
+5. In the \*\*Outage New record page\*\*, select \*\*Degradation\*\* from the Type list, and fill in the T\*\*ask number\*\* field with the incident number \*\*“INC0010248\*\*”:&#x20;
 6. Click \*\*Submit\*\*
-7. Click the \*\*Update\*\* button to return to the incidents list
-Now, we need to switch scope to “\*\*Platform AI Agents and Skills\*\*”.
-8. Click the Application Scope icon at the top of the page
-![](/files/06hsPU8jPbBkNWSSv30e)
-
+7. Click the \*\*Update\*\* button to return to the incidents list Now, we need to switch scope to “\*\*Platform AI Agents and Skills\*\*”.
+8. Click the Application Scope icon at the top of the page&#x20;
 9. Select \*\*Application scope\*\*: Global, and then filter for and select \*\*Platform AI Agents and Skills.\*\*
+
 {% hint style="info" %}
 NOTE: If you can’t find the scope “Platform AI Agents and Skills”. Please click to check \*\*Appendix Section A4: Application Scope at the end of the document.\*\*
 {% endhint %}
-Now let’s go to \*\*Flow Designer\*\* and modify the existing “Get Similar records” action and have it return outages found in similar incidents as well.
-10. Open Flow Designer (\*\*All > Flow Designer\*\*) - this will open Flow Designer in a new tab
-11. Under the Actions tab, find “\*\*Get Similar Records\*\*” and open it. \*\*DO NOT OPEN “Get Similar Incident Records”\*\*
-![](/files/6jBtTbZ8DP6L10AYSZZJ)
 
-12. Copy the action by clicking on the three dots (...) in the top right of the page
-![](/files/nQpNhMyMkPFt8J9FSc5a)
+Now let’s go to \\\*\\\*Flow Designer\\\*\\\* and modify the existing “Get Similar records” action and have it return outages found in similar incidents as well. 10. Open Flow Designer (\\\*\\\*All > Flow Designer\\\*\\\*) - this will open Flow Designer in a new tab 11. Under the Actions tab, find “\\\*\\\*Get Similar Records\\\*\\\*” and open it. \\\*\\\*DO NOT OPEN “Get Similar Incident Records”\\\*\\\* !\[]\(/files/6jBtTbZ8DP6L10AYSZZJ)
 
-13. Change the action name to “\*\*\[Your initials] Get Similar Records and Outages”\*\* and be sure that \*\*“Platform AI Agents and Skills”\*\* is the Application selected.
-![](/files/WgmeB3iyzylMQTYxcKPR)
-
+12. Copy the action by clicking on the three dots (...) in the top right of the page&#x20;
+13. Change the action name to “\*\*\[Your initials] Get Similar Records and Outages”\*\* and be sure that \*\*“Platform AI Agents and Skills”\*\* is the Application selected.&#x20;
 14. Click \*\*Copy\*\*
-15. On the left, click S\*\*cript Step\*\*
-![](/files/UZ6XmFfO7RncW2f7tdY5)
-
+15. On the left, click S\*\*cript Step\*\*&#x20;
 16. Please use the script text box below to copy/paste
+
 ```
 (function execute(inputs, outputs) {
 var groupSkillId;
@@ -93,51 +85,38 @@ reportLines.push(" ----------------------------------------");
 outputs.outage\_details = reportLines.length > 0 ? reportLines.join('\n') : "No outages found for these records.";
 })(inputs, outputs);
 ```
-17. In the Output Variables window (below the Script window), delete both existing variables, and create the following:
-![](/files/lckkMcRtD0AoRKAYiJym)
 
+17. In the Output Variables window (below the Script window), delete both existing variables, and create the following:&#x20;
 18. On the left, click \*\*Outputs\*\*, then click \*\*Edit Outputs\*\*
 19. Delete the message output (confirm the popup window)
 20. Change the label from “References” to “similar records”
-21. Click Create Output with the label “outage details”, the name “outage\\_details”, and the type String
-![](/files/tdnK13fFsBOB82AnvLfU)
-
+21. Click Create Output with the label “outage details”, the name “outage\\\_details”, and the type String&#x20;
 22. Click on \*\*Exit Edit Mode\*\*
-23. Drag and drop the script step variables from the right into their corresponding boxes in the middle, like this:
-![](/files/o7qaGTsD6ydgy1dQpu3K)
-
+23. Drag and drop the script step variables from the right into their corresponding boxes in the middle, like this:&#x20;
 24. Click \*\*Test\*\*
-25. Type “incident” into the type field, and “\*\*INC0010248\*\*” into the record\\_number field, then click \*\*Run Test\*\*
-26. When it appears, click “Your test has finished running. View the Action execution details.”
-Your results should look like:
-![](/files/MnoN80B9YlWnbz0II0pc)
-
+25. Type “incident” into the type field, and “\*\*INC0010248\*\*” into the record\\\_number field, then click \*\*Run Test\*\*
+26. When it appears, click “Your test has finished running. View the Action execution details.” Your results should look like:&#x20;
 27. Return to the previous window, and click Save, then Publish
 28. Close the Workflow Studio browser tab, and return to the main lab browser tab
-29. Let’s change the Application Scope back to Global
-![](/files/g71LI9JWQdU9iLZZM17I)
+29. Let’s change the Application Scope back to Global&#x20;
 
 Now let’s create another Flow Action for creating an outage.
-  
-30. Open Flow Designer (All > Flow Designer) and search for “outage” under the Actions tab.
-![](/files/YyLwqQnRawTngqQdjADf)
 
-31\. Click on Create Outage and copy the action, name it “\[Your Initials] Create outage.”
-![](/files/kxbC216noZJbVXvMzJAn)
+30. Open Flow Designer (All > Flow Designer) and search for “outage” under the Actions tab.&#x20;
+
+31\. Click on Create Outage and copy the action, name it “\[Your Initials] Create outage.”&#x20;
 
 32. Delete the following inputs:
-1. “configuration item”
-2. “type”
-3. “begin”
-![](/files/21dIYLlSMLrhs5T0qZ9G)
-
-33. On the left, click \*\*Script Step\*\* and delete the following variables:
-1. “cmdbCI”
-2. “type”
-3. “begin”
-![](/files/durIpPy39MGumLJM0D66)
+33. “configuration item”
+34. “type”
+35. “begin”&#x20;
+36. On the left, click \*\*Script Step\*\* and delete the following variables:
+37. “cmdbCI”
+38. “type”
+39. “begin”&#x20;
 
 34\. Replace the existing script with this one:
+
 ```
 (function execute(inputs, outputs) {
 var parentTable = GlideDBObjectManager.get().getBase(inputs.source.getRecordClassName());
@@ -154,44 +133,32 @@ outputs.OutageRecord = outage.insert();
 outputs.outagerecordnumber = outage.getValue("number");
 })(inputs, outputs);
 ```
+
 35. Then add an output variable with the following values:
-1. Label: “OutageRecordNumber”
-2. Name: outagerecordnumber
-3. Type: String
-4. Mandatory: True
-![](/files/iPnUbob9yYyZ0nfVy1Bd)
+36. Label: “OutageRecordNumber”
+37. Name: outagerecordnumber
+38. Type: String
+39. Mandatory: True&#x20;
+40. On the left, click Outputs, then Edit Outputs, then Create Output
+41. Edit the new Output with the following values:
+42. Label: “Outage Number”
+43. Name: “outage\\\_number”
+44. Type: String&#x20;
+45. Click Exit Edit Mode
+46. Drag the “OutageRecordNumber” Script variable to the Outage Number Action Output box.&#x20;
+47. Click Test
+48. Select “INC0000001” as the Source Record, and click Run Test
+49. When it appears, click “Your test has finished running. View the Action execution details.” Your results should look like:&#x20;
+50. Return to the previous window, and click Save, then Publish
+51. Close the Workflow Studio browser tab, and return to the main lab browser tab \*\*Section 2.4.2 - Extra - Build the AI Agent\*\* Now, let's open AI Agent Studio and build another AI agent. This time, we will duplicate the previously created AI agent “Incident Solution Recommender”.
+52. Open AI Agent Studio (All > AI Agent Studio > Overview)
+53. Click the Create and Manage module
+54. Click on the AI Agent tab, then select the "Incident Solution Recommender” and on the form, use the button at the top right to duplicate the agent
+55. Click Duplicate when prompted
+56. Update the fields with the following values:
+57. Name: “Incident Solution Recommender with Outage Check”
+58. Instructions (include the numbering):
 
-36. On the left, click Outputs, then Edit Outputs, then Create Output
-37. Edit the new Output with the following values:
-1. Label: “Outage Number”
-2. Name: “outage\\_number”
-3. Type: String
-![](/files/1PbTnrDG5oud3L9mwmkd)
-
-38. Click Exit Edit Mode
-39. Drag the “OutageRecordNumber” Script variable to the Outage Number Action Output box.
-![](/files/AcguS9yLnhstg0hZm3Sj)
-
-40. Click Test
-41. Select “INC0000001” as the Source Record, and click Run Test
-42. When it appears, click “Your test has finished running. View the Action execution details.”
-Your results should look like:
-![](/files/NeUoeOAuxanfB0zDAmLB)
-
-43. Return to the previous window, and click Save, then Publish
-44. Close the Workflow Studio browser tab, and return to the main lab browser tab
-\*\*Section 2.4.2 - Extra - Build the AI Agent\*\*
-Now, let's open AI Agent Studio and build another AI agent. This time, we will duplicate the previously created AI agent “Incident Solution Recommender”.
-1. Open AI Agent Studio (All > AI Agent Studio > Overview)
-2. Click the Create and Manage module
-3. Click on the AI Agent tab, then select the "Incident Solution Recommender” and on the form, use the button at the top right to duplicate the agent
-
-![](/files/ULY4Vs9GuiwMqNhsjI3J)
-
-4. Click Duplicate when prompted
-5. Update the fields with the following values:
-1. Name: “Incident Solution Recommender with Outage Check”
-2. Instructions (include the numbering):
 ```
 1. Get details of an incident.
 2. Get current similar incidents. The table name is "incident".
@@ -201,75 +168,49 @@ Now, let's open AI Agent Studio and build another AI agent. This time, we will d
 6. If an outage record was created successfully, please add the outage number to the Additional Comments section of the incident record.
 7. End.
 ```
+
 6. Click Save and continue
 7. Click on the existing “Get Similar Incident Records” flow action and change the name to “Get Similar Incident Records and Outages”
-8. Select “\[Your Initials] Get Similar Records and Outages” as the flow action.![](/files/kF0PoNSZgiPSQqkAtjxk)
-
+8. Select “\[Your Initials] Get Similar Records and Outages” as the flow action.
 9. Click \*\*Save\*\*
 10. Click the Add tool dropdown list, and select Flow action, then complete the fields with the following information:
-1. Name: “Create Outage”
-2. Description: “Create an outage for the task/record being resolved”
-3. Flow action: \[Your initials] Create Outage
-4. Execution mode: Autonomous
-5. Display output: Yes
-6. Output Transformation strategy: Concise.
-11\. Click Add-Your tools should look like this:
-![](/files/nmQjNBCPPoLnnDmUrhMT)
+11. Name: “Create Outage”
+12. Description: “Create an outage for the task/record being resolved”
+13. Flow action: \[Your initials] Create Outage
+14. Execution mode: Autonomous
+15. Display output: Yes
+16. Output Transformation strategy: Concise. 11. Click Add-Your tools should look like this:&#x20;
 
-12\. Click \*\*Save and Continue\*\*
-13\. On the Define Availability page, make sure the Status toggle is set to On
-14\. Click \*\*Save and Test\*\*
-\*\*Now let’s test the agent!\*\*
-· In the Task box enter “INC0010004” and click Start test.
-· At the end of the test, check the comments in INC0010004:
-![](/files/5UXiOBlnKtIRToQRrVy1)
+12\. Click \*\*Save and Continue\*\* 13. On the Define Availability page, make sure the Status toggle is set to On 14. Click \*\*Save and Test\*\* \*\*Now let’s test the agent!\*\* · In the Task box enter “INC0010004” and click Start test. · At the end of the test, check the comments in INC0010004:&#x20;
 
-Congratulations! You have completed the advanced part of the lab!
-17. In the Output Variables window (below the Script window), delete both existing variables, and create the following:
-![](/files/U9QGw9kmzEd6qFfYnCfG)
+Congratulations! You have completed the advanced part of the lab! 17. In the Output Variables window (below the Script window), delete both existing variables, and create the following:&#x20;
 
 18. On the left, click \*\*Outputs,\*\* then click \*\*Edit Outputs\*\*
 19. Delete the message output (confirm the pop-up window)
 20. Change the label from “References” to “similar records.”
-21. Click Create Output with the label “outage details”, the name “outage\\_details”, and the type String.
-![](/files/EDZvsEGqbhn0Mg8C0ujj)
-
+21. Click Create Output with the label “outage details”, the name “outage\\\_details”, and the type String.&#x20;
 22. Click on \*\*Exit Edit Mode\*\*
-23. Drag and drop the script step variables from the right into their corresponding boxes in the middle, like this:
-![](/files/VMlYS2BEYZImrQ74P5Tb)
-
+23. Drag and drop the script step variables from the right into their corresponding boxes in the middle, like this:&#x20;
 24. Click \*\*Test\*\*
-25. Type “incident” into the type field, and “INC0010004” into the record\\_number field, then click \*\*Run Test\*\*
-![](/files/F6a5DKSyvpJDF7w9gff1)
-
-26. When it appears, click “Your test has finished running. View the Action execution details.” Results should look like this.
-![](/files/1RRwk27nRo51md8UI7y7)
-
+25. Type “incident” into the type field, and “INC0010004” into the record\\\_number field, then click \*\*Run Test\*\*&#x20;
+26. When it appears, click “Your test has finished running. View the Action execution details.” Results should look like this.&#x20;
 27. Return to the previous window, and click \*\*Save, then Publish\*\*
 28. Close the Workflow Studio browser tab, and return to the main lab browser tab
-29. Let’s change the Application Scope back to Global
-![](/files/7ACGJBk1kt834pIZN8WN)
+29. Let’s change the Application Scope back to Global&#x20;
 
-Now let's create another Flow Action for creating an outage.
-30. Open Flow Designer (\*\*All > Flow Designer\*\*) and search for “outage” under the Actions tab.
-![](/files/dHEorDUypauK4JZU7Kqb)
+Now let's create another Flow Action for creating an outage. 30. Open Flow Designer (\*\*All > Flow Designer\*\*) and search for “outage” under the Actions tab.&#x20;
 
-31. Click on \*\*Create Outage\*\* and copy the action, name it “\[Your Initials] Create outage”
-![](/files/ZxQc36Sa2i6lNMPR3n81)
-
+31. Click on \*\*Create Outage\*\* and copy the action, name it “\[Your Initials] Create outage”&#x20;
 32. Delete the following inputs:
-1. “configuration item"
-2. “type”
-3. “begin”
-![](/files/vrmqFsQGetvk2rGGq7ut)
+33. “configuration item"
+34. “type”
+35. “begin”&#x20;
+36. On the left, click \*\*Script Step\*\* and delete the following variables:
+37. "cmdbCI"
+38. “type”
+39. “begin”&#x20;
+40. Replace script with this one:
 
-33. On the left, click \*\*Script Step\*\* and delete the following variables:
-1. "cmdbCI"
-2. “type”
-3. “begin”
-![](/files/xc3exZiDyPH8uTfeJ4qu)
-
-34. Replace script with this one:
 ```
 (function execute(inputs, outputs) {
 var parentTable = GlideDBObjectManager.get().getBase(inputs.source.getRecordClassName());
@@ -286,4 +227,5 @@ outputs.OutageRecord = outage.insert();
 outputs.outagerecordnumber = outage.getValue("number");
 })(inputs, outputs);
 ```
+
 35.

@@ -1,39 +1,32 @@
 # section-8.1-now-assist-skill-kit.md
 
+## section-8.1-now-assist-skill-kit.md
+
 > For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.1-now-assist-skill-kit.md).
-# Section 8.1 Now Assist Skill Kit
-Creation and management of custom skills is done through Now Assist Skill Kit landing page. Before you start ensure that you are in the IT Service Management AI agent collection application scope.
-![](/files/2hdsTEJHLB2fFi1L5l2T)
+
+## Section 8.1 Now Assist Skill Kit
+
+Creation and management of custom skills is done through Now Assist Skill Kit landing page. Before you start ensure that you are in the IT Service Management AI agent collection application scope.&#x20;
 
 {% hint style="info" %}
 You might also want to go to the incident (incident.list) table to create an incident that you can test with, however there is demo data in your instance that we can useYou might also want to go to the incident (incident.list) table to create an incident that you can test with, however there is demo data in your instance that we can use
 {% endhint %}
-1\. Navigate to Now Assist Skill Kit à Home to get started with a new skill creation, from there select: ![](/files/tQtXlN89zWHhc5Y9SaDp)
-2\. In the skill creation fill out the following:
-\* Skill name: Assignment group selector
-\* Description: This skill selects assignment groups based on information in the incident
-\* Default provider: Azure OpenAI
-\* Default provider API: Chat Completions
-\
-\
-Scroll down and add the itil role in the section “Apply role restrictions to skill”.
-\
-Then select Skip to Prompt editor.\
-\\
-![](/files/BPccOLlrDwTqGuINjl4m)
 
-![](/files/B3rTztx6c5cVgPSOrkhI)
+1\. Navigate to Now Assist Skill Kit à Home to get started with a new skill creation, from there select:  2. In the skill creation fill out the following: \* Skill name: Assignment group selector \* Description: This skill selects assignment groups based on information in the incident \* Default provider: Azure OpenAI \* Default provider API: Chat Completions\
+\
+Scroll down and add the itil role in the section “Apply role restrictions to skill”.\
+Then select Skip to Prompt editor.\
+\\&#x20;
 
 {% hint style="info" %}
 As an alternative we could have followed the guide to complete the prompt setup however we can save you time by jumping ahead.
 {% endhint %}
-3\. Now you can start building your skill:
-![](/files/Sk2wAHRpZvnqcxhDGWNi)
 
-3.1 Add an input by hitting +, for this we will use a String input since we will use it in an AI agent. Datatype: String, Name: incidentnumber (yes, in one word)
-3.2 Add your prompt, to save you time we have created a prompt for you but you are free to modify the prompt if you want to change the response.
-\
-Notice the inputs added in {{brackets}} we will add these in the next step.
+3\. Now you can start building your skill:&#x20;
+
+3.1 Add an input by hitting +, for this we will use a String input since we will use it in an AI agent. Datatype: String, Name: incidentnumber (yes, in one word) 3.2 Add your prompt, to save you time we have created a prompt for you but you are free to modify the prompt if you want to change the response.\
+Notice the inputs added in \{{brackets\}} we will add these in the next step.
+
 ```
 You are an IT Service Management incident triage classifier. Your task is to
 analyze a single incident and select the most appropriate assignment group
@@ -79,9 +72,8 @@ Hard rules:
 - Do not output any group that is not in the candidate list.
 - Do not output explanations, reasoning, or apologies. JSON only.
 ```
-3.3 Go to the “Add tools” tab to add tools.
 
-![](/files/Ubh3iTOxCAPgRBTzrLhJ)
+3.3 Go to the “Add tools” tab to add tools.
 
 {% hint style="info" %}
 In the tool editor we need to add two tools. For this exercise we will use script tools that are the fastest to add, however in a deployment we would rather recommend using a flow action or sub flows as these are easier to maintain and test.

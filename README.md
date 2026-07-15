@@ -1,10 +1,9 @@
 ---
+cover: .gitbook/assets/WePutAIToWotk_LinkedIn_Headers_Indigo.png
 coverY: 0
 ---
 
-# Welcome | Higher Ed Summit 2026
-
-For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). This page is also available as [Markdown](welcome.md).
+# Welcome
 
 ## Put AI to Work (shop) for Service Operations
 

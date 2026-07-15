@@ -1,14 +1,13 @@
 # section-3.4-change-summarization.md
 
+## section-3.4-change-summarization.md
+
 > For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-3.-now-assist-for-the-agent-persona/section-3.4-change-summarization.md).
-# Section 3.4 Change Summarization
-1. Select list view, then scroll down to “\*\*Changes”\*\*. Select “\*\*Open\*\*” to get a list of all open Change Records.
-![](/files/fjbybW2tzqvJXdDNfE4E)
 
-2. From the list of open \*\*Changes\*\*, locate and click on “\*\*CHG0044021\*\*”.
-![](/files/C09o5K3NlB2roPZfGtn6)
+## Section 3.4 Change Summarization
 
-3. Select the “\*\*Summarize\*\*’ button on the Overview to see the Summary of the Change Request.
-![](/files/jYaBWlnIyVTNCcc3nWRE)
+1. Select list view, then scroll down to “\*\*Changes”\*\*. Select “\*\*Open\*\*” to get a list of all open Change Records.&#x20;
+2. From the list of open \*\*Changes\*\*, locate and click on “\*\*CHG0044021\*\*”.&#x20;
+3. Select the “\*\*Summarize\*\*’ button on the Overview to see the Summary of the Change Request.&#x20;
 
 \*\*Congratulations,\*\* you have generated your first change summarization! Please \*\*don’t close\*\* your browser or the workspace; we’ll continue exploring it in the next section.

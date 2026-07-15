@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome | Higher Ed Summit 2026](README.md)
+* [Welcome](README.md)
 * [Lab Objectives | Higher Ed Summit 2026](lab-objectives.md)
 * [Lab Preparation | Higher Ed Summit 2026](lab-preparation.md)
 * [appendix.md](appendix.md)

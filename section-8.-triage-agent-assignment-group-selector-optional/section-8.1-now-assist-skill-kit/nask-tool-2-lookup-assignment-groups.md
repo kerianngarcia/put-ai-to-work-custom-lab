@@ -1,8 +1,13 @@
-# nask-tool-2-lookup-assignment-groups.md
+# NASK Tool 2: Lookup assignment groups | World Forums and Summits Learning Labs 2026
+
+## nask-tool-2-lookup-assignment-groups.md
 
 > For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.1-now-assist-skill-kit/nask-tool-2-lookup-assignment-groups.md).
-# NASK Tool 2: Lookup assignment groups
+
+## NASK Tool 2: Lookup assignment groups
+
 Following the previous steps to add another script tool, this time name it \*\*assignmentgroup\*\*:
+
 ```javascript
 (function runScript(context) {
 var groups = [];
@@ -33,14 +38,9 @@ description: gr.getValue('description') || ''
 return JSON.stringify(groups);
 })(context);
 ```
-Configuration should now look like this:
 
-![](/files/FZAhsXV6skdvUIsYYqSI)
+Configuration should now look like this:
 
 Again, no other configuration is needed select continue until you have added the tool. Your flow should look similar to the image below. The exact order does not matter as both scripts will execute prior to the prompt.
 
-![](/files/Lge18iI9YOuIvm0gvtLT)
-
-To control, check back with your prompt, the {{inputs}} should be blue indicating that they are matched with the tools you have added.
-
-![](/files/IE0p9UKwEE9soOZRTYON)
+To control, check back with your prompt, the \{{inputs\}} should be blue indicating that they are matched with the tools you have added.

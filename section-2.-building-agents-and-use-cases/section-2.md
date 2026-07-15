@@ -1,4 +1,4 @@
-# Section 2.4 - OPTIONAL- Build an AI Agent that checks outages in similar incidents | World Forums and Summits Learning Labs 2026
+# Section 2.1 Build a Simple Agent | World Forums and Summits Learning Labs 2026
 
 For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). This page is also available as [Markdown](section-2.4-optional-build-an-ai-agent-that-checks-outages-in-similar-incidents.md).
 
@@ -39,7 +39,7 @@ Now let’s go to **Flow Designer** and modify the existing “Get Similar recor
 
 ![](../.gitbook/assets/asset-f95f6c48befd0e45.png)
 
-1. Change the action name to “**[Your initials] Get Similar Records and Outages”** and be sure that **“Platform AI Agents and Skills”** is the Application selected.
+1. Change the action name to “**\[Your initials] Get Similar Records and Outages”** and be sure that **“Platform AI Agents and Skills”** is the Application selected.
 
 ![](../.gitbook/assets/asset-2e10123c2e84996e.png)
 
@@ -49,8 +49,7 @@ Now let’s go to **Flow Designer** and modify the existing “Get Similar recor
 ![](../.gitbook/assets/asset-0a0590ae911caf8c.png)
 
 1. Please use the script text box below to copy/paste
-
-1. In the Output Variables window (below the Script window), delete both existing variables, and create the following:
+2. In the Output Variables window (below the Script window), delete both existing variables, and create the following:
 
 ![](../.gitbook/assets/asset-b31d29659124dcac.png)
 
@@ -72,7 +71,7 @@ Now let’s go to **Flow Designer** and modify the existing “Get Similar recor
 
 Your results should look like:
 
-![](../.gitbook/assets/asset-4bb16638e7ce591a.png)
+![](../.gitbook/assets/asset-15b4be52a4b57338.png)
 
 1. Return to the previous window, and click Save, then Publish
 2. Close the Workflow Studio browser tab, and return to the main lab browser tab
@@ -86,12 +85,11 @@ Now let’s create another Flow Action for creating an outage.
 
 ![](../.gitbook/assets/asset-75fed615a3247d8a.png)
 
-31. Click on Create Outage and copy the action, name it “[Your Initials] Create outage.”
+31. Click on Create Outage and copy the action, name it “\[Your Initials] Create outage.”
 
 ![](../.gitbook/assets/asset-9d1a85e01b338ca5.png)
 
 1. Delete the following inputs:
-
    1. “configuration item”
    2. “type”
    3. “begin”
@@ -99,7 +97,6 @@ Now let’s create another Flow Action for creating an outage.
 ![](../.gitbook/assets/asset-a3dc19e0ed77ffd0.png)
 
 1. On the left, click **Script Step** and delete the following variables:
-
    1. “cmdbCI”
    2. “type”
    3. “begin”
@@ -107,19 +104,16 @@ Now let’s create another Flow Action for creating an outage.
 ![](../.gitbook/assets/asset-913aa6d5c76e2780.png)
 
 34. Replace the existing script with this one:
-
-1. Then add an output variable with the following values:
-
-   1. Label: “OutageRecordNumber”
-   2. Name: outagerecordnumber
-   3. Type: String
-   4. Mandatory: True
+35. Then add an output variable with the following values:
+    1. Label: “OutageRecordNumber”
+    2. Name: outagerecordnumber
+    3. Type: String
+    4. Mandatory: True
 
 ![](../.gitbook/assets/asset-8c7cee7ad78fae52.png)
 
 1. On the left, click Outputs, then Edit Outputs, then Create Output
 2. Edit the new Output with the following values:
-
    1. Label: “Outage Number”
    2. Name: “outage\_number”
    3. Type: String
@@ -148,40 +142,33 @@ Now, let's open AI Agent Studio and build another AI agent. This time, we will d
 
 1. Open AI Agent Studio (All > AI Agent Studio > Overview)
 2. Click the Create and Manage module
-3. Click on the AI Agent tab, then select the "Incident Solution Recommender” and on the form, use the button at the top right to duplicate the agent
+3.  Click on the AI Agent tab, then select the "Incident Solution Recommender” and on the form, use the button at the top right to duplicate the agent
 
-   ![](../.gitbook/assets/asset-f6b32d8657d1cb1b.png)
+    ![](../.gitbook/assets/asset-f6b32d8657d1cb1b.png)
 4. Click Duplicate when prompted
 5. Update the fields with the following values:
-
    1. Name: “Incident Solution Recommender with Outage Check”
    2. Instructions (include the numbering):
-
-1. Click Save and continue
-2. Click on the existing “Get Similar Incident Records” flow action and change the name to “Get Similar Incident Records and Outages”
-
-1. Select “[Your Initials] Get Similar Records and Outages” as the flow action.
+6. Click Save and continue
+7. Click on the existing “Get Similar Incident Records” flow action and change the name to “Get Similar Incident Records and Outages”
+8. Select “\[Your Initials] Get Similar Records and Outages” as the flow action.
 
 ![](../.gitbook/assets/asset-25ce7dcfb4e028fe.png)
 
 1. Click **Save**
 2. Click the Add tool dropdown list, and select Flow action, then complete the fields with the following information:
-
    1. Name: “Create Outage”
    2. Description: “Create an outage for the task/record being resolved”
-   3. Flow action: [Your initials] Create Outage
+   3. Flow action: \[Your initials] Create Outage
    4. Execution mode: Autonomous
    5. Display output: Yes
    6. Output Transformation strategy: Concise.
-
-11. Click Add-Your tools should look like this:
+3. Click Add-Your tools should look like this:
 
 ![](../.gitbook/assets/asset-1b318c9315261e61.png)
 
 12. Click **Save and Continue**
-
 13. On the Define Availability page, make sure the Status toggle is set to On
-
 14. Click **Save and Test**
 
 **Now let’s test the agent!**
@@ -208,7 +195,7 @@ Congratulations! You have completed the advanced part of the lab!
 1. Click on **Exit Edit Mode**
 2. Drag and drop the script step variables from the right into their corresponding boxes in the middle, like this:
 
-![](../.gitbook/assets/asset-6eb06cb839b81d5c.png)
+![](../.gitbook/assets/asset-3dda6a40f2f38e7e.png)
 
 1. Click **Test**
 2. Type “incident” into the type field, and “INC0010004” into the record\_number field, then click **Run Test**
@@ -223,7 +210,7 @@ Congratulations! You have completed the advanced part of the lab!
 2. Close the Workflow Studio browser tab, and return to the main lab browser tab
 3. Let’s change the Application Scope back to Global
 
-![](../.gitbook/assets/asset-fd0f09d2fd12364e.png)
+![](../.gitbook/assets/asset-f4df0d03d8c5b127.png)
 
 Now let's create another Flow Action for creating an outage.
 
@@ -231,12 +218,11 @@ Now let's create another Flow Action for creating an outage.
 
 ![](../.gitbook/assets/asset-d027bae0f3525344.png)
 
-1. Click on **Create Outage** and copy the action, name it “[Your Initials] Create outage”
+1. Click on **Create Outage** and copy the action, name it “\[Your Initials] Create outage”
 
 ![](../.gitbook/assets/asset-c40dd30025b46757.png)
 
 1. Delete the following inputs:
-
    1. “configuration item"
    2. “type”
    3. “begin”
@@ -244,7 +230,6 @@ Now let's create another Flow Action for creating an outage.
 ![](../.gitbook/assets/asset-9387cea4c5f3b602.png)
 
 1. On the left, click **Script Step** and delete the following variables:
-
    1. "cmdbCI"
    2. “type”
    3. “begin”
