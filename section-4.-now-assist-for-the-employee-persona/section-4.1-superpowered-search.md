@@ -22,16 +22,3 @@ Notice that when you click the thumbs-up or thumbs-down buttons, feedback is sen
 Dive Deeper: ServiceNow uses a Retrieval Augmented Generation (RAG) architecture that puts a semantic search engine before an LLM. If you want to get into the details of the architecture, check out the excellent article by Sean Hughes, ["Under the Hood: Now Assist in AI Search"](https://www.servicenow.com/community/now-assist-articles/under-the-hood-now-assist-in-ai-search/ta-p/2642915).
 {% endhint %}
 \*\*Congratulations!\*\* You have finished reviewing Now Assist for Search. Let's move on to the next section. Now pivot in the same enhanced chat view into a Now Assistant Virtual Agent conversation.
----
-# Agent Instructions
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-## Querying This Documentation
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-```
-GET https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-4.-now-assist-for-the-employee-persona/section-4.1-superpowered-search.md?ask=&goal=
-```
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
-`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
