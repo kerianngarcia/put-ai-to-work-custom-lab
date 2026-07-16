@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/WePutAIToWotk_LinkedIn_Headers_Indigo (1).png
+cover: .gitbook/assets/WePutAIToWotk_LinkedIn_Headers_Indigo.png
 coverY: 0
 ---
 

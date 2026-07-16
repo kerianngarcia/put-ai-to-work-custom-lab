@@ -7,12 +7,16 @@ Note: In the following lab, we will talk through prompting many times. To learn 
 Now let’s begin!
 
 1. Open AI Agent Studio (All > AI Agent Studio > Overview)
-2. Locate the section titled, \*\*“Active in your Organization”.\*\* Select the \*\*AI Agents tab,\*\* then click \*\*“Add->Chat”.\*\*
-3. A configuration page for “New AI agent” will open. Complete the fields with the information given below. In the Define the specialty Area, click on \*\*‘Generate details.’\*\*
-4. Copy and paste the following into the dialog, we will Now Assist in filling in our fields for us\
-   \
-   \&#xNAN;\*I want my AI Agent to be a hospital campus concierge. Provide directions to visitors and patients. You are a hospital concierge whose job is to provide directions to specific hospital departments. You will always be friendly but favor brevity, so your messages are easy to read on mobile devices. If it hasn't already been provided, ask the visitor for their destination. Look up the supplied destination in the location tab. If you cannot find the destination, assume this is a lab environment and create a feasible answer—list directions to walk from the visitor’s or your current location to the destination. If you do not have the visitor's current location, assume they are in the hospital’s east wing, which is where the front door is. Provide the visitor with output directions as a numbered list.\*
-5. Click on "\*\*Generate"\*\*
+2. Locate the section titled, “**Active in your Organization**”. Select the **AI Agents** tab, then click “**Add->Chat**”.
+3. A configuration page for “New AI agent” will open. Complete the fields with the information given below. In the Define the specialty Area, click on ‘**Generate details**.’
+4.  Copy and paste the following into the dialog, we will Now Assist in filling in our fields for us\
+    \
+    &#xNAN;_&#x49; want my AI Agent to be a hospital campus concierge. Provide directions to visitors and patients. You are a hospital concierge whose job is to provide directions to specific hospital departments. You will always be friendly but favor brevity, so your messages are easy to read on mobile devices. If it hasn't already been provided, ask the visitor for their destination. Look up the supplied destination in the location tab. If you cannot find the destination, assume this is a lab environment and create a feasible answer—list directions to walk from the visitor’s or your current location to the destination. If you do not have the visitor's current location, assume they are in the hospital’s east wing, which is where the front door is. Provide the visitor with output directions as a numbered list._<br>
+
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+5.  Click on **"Generate"**.<br>
+
+    <figure><img src="../.gitbook/assets/Generate a Des.avif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tip: If you do not see the entry field for “AI Agent Role”, you may be in the wrong section! Check the upper left corner of the screen and confirm that you are in the “New AI Agent” setup.
@@ -22,16 +26,16 @@ Tip: If you do not see the entry field for “AI Agent Role”, you may be in th
 Note: In a non-lab environment and with MCP, you could expose agents to third parties, add memory categories, or allow the agent to learn from past executions, but for this lab, we will NOT.
 {% endhint %}
 
-6. Click "\*\*Save and continue.\*\*"
-7. Next is the “\*\*Add tools and information\*\*” section. We are not adding tools for this agent, so simply click “\*\*Save and continue\*\*”.
-8. In Define security controls, click “\*\*Save and continue\*\*” on the following two steps
-9. Define user access -> select '\*\*Any Authenticated user\*\*’ from the User access drop-down, press "Save and continue".
-10. Define data access -> Select the \*\*Dynamic user\*\*, search for and select \*\*‘itil’\*\* and '\*\*admin\*\*' from the approved roles, press "Save and continue".
-11. Next, in the Add triggers section, click “\*\*Save and continue\*\*”.
+6. Click "**Save and continue**."
+7. Next is the “**Add tools and information**” section. We are not adding tools for this agent, so simply click “**Save and continue**”.
+8. In Define security controls, click “**Save and continue**” on the following two steps
+9. Define user access -> select '**Any Authenticated user**’ from the User access drop-down, press "Save and continue".
+10. Define data access -> Select the **Dynamic user**, search for and select ‘**itil**’ and '**admin**' from the approved roles, press "Save and continue".
+11. Next, in the Add triggers section, click “**Save and continue**”.
 12. Next, in the Select channels and status, you can enable Agents to communicate via the Now Assist for Virtual Agent (via Employee center, or Service Portal), but for this example, we will NOT change the selection.
-13. In the Communicate, this AI agent’s process to users, click on “\*\*Generate messages\*\*” letting Now assist create them for you, when the agent is ‘thinking’ and when it has completed its task
-14. On the \*\*Activation status\*\* area, make sure the Status toggle is set to \*\*On\*\*
-15. Click \*\*Save and Test\*\* \*\*Now let's test the agent!\*\* \* In the Task box enter “I need help finding my appointment” and click \*\*“Continue to Test Chat response.”\*\* \* When asked, type in any department name, e.g., “radiology”, and press enter. Once the conversation is finished, take your time to expand and read through the entire AI agent's decision log. \* \*\*Thought:\*\* A recap on the overall mission of the agen,t followed by what the Agent thinks needs to be done next. \* \*\*Action\*\*: The next step that the agent feels it needs to take. Note that in the absence of any tools, the agent falls back to built-in capabilities for sending messages back to the user. \* \*\*Action Inputs:\*\* The inputs the AI Agent decided to pass on to the tool or, in this case, the built-in fall-back capability Your responses and rthe esults generated by Now Assist in creating this agent could differ
+13. In the Communicate, this AI agent’s process to users, click on “Generate messages” letting Now assist create them for you, when the agent is ‘thinking’ and when it has completed its task
+14. On the Activation status area, make sure the Status toggle is set to On
+15. Click Save and Test Now let's test the agent! In the Task box enter “I need help finding my appointment” and click “Continue to Test Chat response.” When asked, type in any department name, e.g., “radiology”, and press enter. Once the conversation is finished, take your time to expand and read through the entire AI agent's decision log.  Thought: A recap on the overall mission of the agen,t followed by what the Agent thinks needs to be done next. Action: The next step that the agent feels it needs to take. Note that in the absence of any tools, the agent falls back to built-in capabilities for sending messages back to the user. Action Inputs: The inputs the AI Agent decided to pass on to the tool or, in this case, the built-in fall-back capability Your responses and rthe esults generated by Now Assist in creating this agent could differ.
 
 {% hint style="info" %}
 Dive Deeper: How could this lab example be expanded to a real-world environment? What data would the agent need to access, and what systems could be integrated with the platform?\
