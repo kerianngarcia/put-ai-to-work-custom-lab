@@ -18,5 +18,3 @@ If AI Search is NOT active, please click to go to the [Appendix Section A3: AI S
 
 Otherwise, proceed to the lab.
 
-{% include ".gitbook/includes/username-admin-password-8....md" %}
-
