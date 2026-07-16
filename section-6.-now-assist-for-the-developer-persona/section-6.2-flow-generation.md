@@ -1,4 +1,4 @@
-# Section 6.2 Flow Generation
+# section-6.2-flow-generation.md
 
 ## section-6.2-flow-generation.md
 
@@ -10,11 +10,14 @@ Now let's create a flow with based on a prompt along with an image.
 
 **Generate Flow from Text**
 
-1. You should be back in the Workflow Studio tab. This time, select \*\*New > Flow.\*\*
+1. You should be back in the Workflow Studio tab. This time, select \*\*New > Flow.\*\*&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-40d21cda1c448c.png)
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-be1f3731d18d3b.png) 2. Copy and past this into the “Now Assist Directions give the flow a name, and hit Generate flow preview.
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-40d21cda1c448c.png)
+
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-be1f3731d18d3b.png)
+2. Copy and past this into the “Now Assist Directions give the flow a name, and hit Generate flow preview.
 
 ```
 Brand new process in place for next week
@@ -37,19 +40,27 @@ Step 7 - Reporting & Finance Tracking (Creative Leads, Managers & Finance/Operat
 Link spend to specific initiatives, reconcile with finance systems, and update stakeholder
 ```
 
-3. Review the proposed flow. Does it follow the directions laid out by the Now Assist prompt?
+3. Review the proposed flow. Does it follow the directions laid out by the Now Assist prompt?&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d86c0dadc90b22.png) 4. When you are finished, click \*\*Discard flow.\*\*
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d3e0b585d34b8e.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d86c0dadc90b22.png)
+4. When you are finished, click \*\*Discard flow.\*\*&#x20;
+
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d3e0b585d34b8e.png)
 
 **Generate Flow from Image**
 
-1. First, download this image:
+1. First, download this image:&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-16f43b004b7ae6.png) 2. You should be back in the Workflow Studio tab. This time, select \*\*New > Flow.\*\* 3. Provide a name of your new flow and upload the image:
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-345842ea9fc560.png) 4. Click \*\*Generate flow preview\*\* and let Now Assist create a flow from the image!
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-16f43b004b7ae6.png)
+2. You should be back in the Workflow Studio tab. This time, select \*\*New > Flow.\*\*&#x20;
+3. Provide a name of your new flow and upload the image:&#x20;
+
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-345842ea9fc560.png)
+4. Click \*\*Generate flow preview\*\* and let Now Assist create a flow from the image!
 
 {% hint style="info" %}
 Note: If the generation fails the first time, please attempt it again.
@@ -57,7 +68,8 @@ Note: If the generation fails the first time, please attempt it again.
 
 5\. Review the Flow preview on the right hand side. Did Now Assist pick up the logic required from the image? !\[]\(/files/ElU4fJTdGzzuE5eGY8Kz)
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ea0e6bfc78668d.png)
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ea0e6bfc78668d.png)
 
 5. Feel free to Discard flow, or Save and edit flow to review the AI-generated flow further.
 6. Once complete, \*\*close the Workflow Studio tab.\*\*---

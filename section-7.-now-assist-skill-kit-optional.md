@@ -1,4 +1,4 @@
-# Section 7. Now Assist Skill Kit (Optional)
+# section-7.-now-assist-skill-kit-optional.md
 
 ## section-7.-now-assist-skill-kit-optional.md
 
@@ -6,9 +6,10 @@
 
 ## Section 7. Now Assist Skill Kit (OPTIONAL)
 
-Go to the following community site and familiarize yourself with the NASK features
+Go to the following community site and familiarize yourself with the NASK features&#x20;
 
-![Screenshot](.gitbook/assets/asset-5a5c7b8ea40ac66b.png)
+
+![](.gitbook/assets/recovered-5a5c7b8ea40ac6.png)
 
 Visit the following URL to see SEVERAL use cases that work with this lab setup [ServiceNow Community Article: Now Assist Skill Kit Use Case Library](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-use-case-library/ta-p/3053580)
 

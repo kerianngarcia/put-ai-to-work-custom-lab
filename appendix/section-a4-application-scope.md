@@ -1,4 +1,4 @@
-# Section A4: Application Scope
+# Section A4: Application Scope | World Forums and Summits Learning Labs 2026
 
 ## section-a4-application-scope.md
 
@@ -6,13 +6,17 @@
 
 ## Section A4: Application Scope
 
-If you couldn’t find the “Platform AI Agents and Skills” application scope, then please look for “UXC Generative AI” and create your script under it.
+If you couldn’t find the “Platform AI Agents and Skills” application scope, then please look for “UXC Generative AI” and create your script under it.&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-068a22d420b1c5.png)
 
-And the action you are copying would be:\\
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-068a22d420b1c5.png)
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-264e5ba8679539.png)
+And the action you are copying would be:\
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4726d8197bb8c8.png)\
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-264e5ba8679539.png)
+
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4726d8197bb8c8.png)
+&#x20;\
 \\

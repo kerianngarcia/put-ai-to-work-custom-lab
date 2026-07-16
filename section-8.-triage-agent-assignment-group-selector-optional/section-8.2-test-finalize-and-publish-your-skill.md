@@ -1,4 +1,4 @@
-# Section 8.2 Test, Finalize, and Publish Your Skill
+# section-8.2-test-finalize-and-publish-your-skill.md
 
 ## section-8.2-test-finalize-and-publish-your-skill.md
 
@@ -8,20 +8,25 @@
 
 Before we can use the skill in an AI agent we should test the functionality and then publish the skill. 1. Start by running a test on your new skill. In the prompt editor scroll down and click Run test. Then add an incident number, for example INC0099969 (this one is about issues with a printer) before hitting Run test again.
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9bef6a503caa98.png)
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9bef6a503caa98.png)
 
 2\. You should then see an output below, for example:\
 {"name":"Hardware","sys\\\_id":"8a5055c9c61122780043563ef53438e3","confidence":"95%"}\
-in this example you can see that the skill has selected the hardware assignment group with a high confidence. You can try changing the content of the incident to see changes in behaviour. 3. Let’s finalize the prompt, publish it and then activate in through skill kit admin. First select the lock icon to finalize the prompt\\
+in this example you can see that the skill has selected the hardware assignment group with a high confidence. You can try changing the content of the incident to see changes in behaviour. 3. Let’s finalize the prompt, publish it and then activate in through skill kit admin. First select the lock icon to finalize the prompt\
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ece0f3f52d2e82.png) then Publish skill from top right in the editor where you can select your skill in the dialogue box:
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ece0f3f52d2e82.png)
+then Publish skill from top right in the editor where you can select your skill in the dialogue box:
 
 If you gave a different name to your prompt it might look slightly different however there should only be one option for you to choose. 4. Once your prompt is published navigate in the filter navigator to Now Assist Admin -> Skills.
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ce59406ed2cf1a.png)
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ce59406ed2cf1a.png)
 
 From here you should have the list of all skills in your instance, if you have not made any other changes you will find your skill under the section other go ahead and activate your skill.
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-6e9ddddbc49d85.png)
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-6e9ddddbc49d85.png)
 
 Congratulations, your skill is now published and available for use in agents!

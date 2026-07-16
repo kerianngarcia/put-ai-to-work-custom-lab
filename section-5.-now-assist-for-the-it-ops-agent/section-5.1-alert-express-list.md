@@ -1,4 +1,4 @@
-# Section 5.1 Alert Express List
+# section-5.1-alert-express-list.md
 
 ## section-5.1-alert-express-list.md
 
@@ -8,15 +8,20 @@
 
 The operator is a person who reviews alerts to identify issues, assess their impact, and determine how to resolve them. In this section, you will act as an operator. Since this lab focuses on Now Assist, we will not go into detail about other actions an operator might take within AIOps, but only how Now Assist can help analyze alerts. As an operator, you can return to the Service Operations Workspace through the workspace menu. The operator views and manages alerts in the Express List, which is a view within the Service Operations Workspace.
 
-1. Close any popups that appear when you first login and then open the \*\*Express List\*\* on the left navigation bar (the second icon from the bottom).
+1. Close any popups that appear when you first login and then open the \*\*Express List\*\* on the left navigation bar (the second icon from the bottom).&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-fa6dc0752c45dd.png) 2. Close the pop-up window that appears. Typically, an operator would see alerts reported by monitoring tools in the Express List in near real-time. For this lab, alerts have been captured and pre-loaded onto your instance. Because of this, the alert times might not be recent enough to appear in the default window, so let’s expand the window. 3. In the upper-right corner of the Express List, click the dropdown labeled \*\*Last week\*\*. This will display all alerts received by the system.
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f5002c85b1e2dd.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-fa6dc0752c45dd.png)
+2. Close the pop-up window that appears. Typically, an operator would see alerts reported by monitoring tools in the Express List in near real-time. For this lab, alerts have been captured and pre-loaded onto your instance. Because of this, the alert times might not be recent enough to appear in the default window, so let’s expand the window.
+3. In the upper-right corner of the Express List, click the dropdown labeled \*\*Last week\*\*. This will display all alerts received by the system.&#x20;
 
-4\. The Express List should now show more alerts and some alert groups.
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-664cb15f21644b.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f5002c85b1e2dd.png)
+
+4\. The Express List should now show more alerts and some alert groups.&#x20;
+
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-664cb15f21644b.png)
 
 \*\*But first, a quick sidebar…\*\*
 

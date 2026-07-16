@@ -1,4 +1,4 @@
-# Section 3.5 Call “CI for Change Request” Agent
+# section-3.5-call-ci-for-change-request-agent.md
 
 ## section-3.5-call-ci-for-change-request-agent.md
 
@@ -6,10 +6,16 @@
 
 ## Section 3.5 Call 'CI for Change request' agent
 
-1. From the same change request, click on the Now Assist panel sparkle in the top right-hand corner
+1. From the same change request, click on the Now Assist panel sparkle in the top right-hand corner&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-3769a43599c997.png) 2. This will expand all the Skills and Agents that this user has permission to use.
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f895c0e39e273e.png) 3. Click on the Suggest "\*\*Configuration Items for a change request\*\*” card.
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-3769a43599c997.png)
+2. This will expand all the Skills and Agents that this user has permission to use.&#x20;
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-868888c61b42d1.png) 4. This agent searches the CMDB for CIs that may be impacted by this change. You could select any of the Cis (or multiple) to associate with the change \*\*Congratulations!\*\* You have summarized and identified Cis impacted by a change request and completed Now Assist for the Agent persona.
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f895c0e39e273e.png)
+3. Click on the Suggest "\*\*Configuration Items for a change request\*\*” card.&#x20;
+
+
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-868888c61b42d1.png)
+4. This agent searches the CMDB for CIs that may be impacted by this change. You could select any of the Cis (or multiple) to associate with the change \*\*Congratulations!\*\* You have summarized and identified Cis impacted by a change request and completed Now Assist for the Agent persona.
