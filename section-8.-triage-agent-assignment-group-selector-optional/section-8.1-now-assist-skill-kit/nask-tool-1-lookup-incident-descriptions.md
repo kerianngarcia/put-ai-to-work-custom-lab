@@ -38,4 +38,7 @@ return result;
 
 Your configuration should now look like this:<br>
 
+
+![Screenshot](../../.gitbook/assets/recovered-b46cdcf6a7eef7.png)
+
 No other configuration is needed you can now select continue until the tool is added.

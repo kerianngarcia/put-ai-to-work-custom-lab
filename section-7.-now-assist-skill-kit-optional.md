@@ -8,6 +8,9 @@
 
 Go to the following community site and familiarize yourself with the NASK features&#x20;
 
+
+![Screenshot](.gitbook/assets/recovered-5a5c7b8ea40ac6.png)
+
 Visit the following URL to see SEVERAL use cases that work with this lab setup [ServiceNow Community Article: Now Assist Skill Kit Use Case Library](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-use-case-library/ta-p/3053580)
 
 Congratulations, you have completed the lab!

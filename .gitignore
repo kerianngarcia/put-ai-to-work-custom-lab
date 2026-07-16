@@ -1,3 +1,8 @@
 
 .venv/
 convert_images.py
+
+.venv/
+convert_images.py
+recover_gitbook_images.py
+image-recovery-report.md

@@ -8,13 +8,25 @@
 
 1. IMPORTANT: Select the profile picture in the upper right-hand corner and impersonate a user: Abel Tuter. The window will reload.
 
+
+![Screenshot](../.gitbook/assets/recovered-59f939ad33ce8c.png)
+
+
+![Screenshot](../.gitbook/assets/recovered-f419b2dd5812bc.png)
+
 2\. Next, open the employee center by navigating to A\*\*ll > Self-Service > Employee Center.\*\* Alternatively, in your browser’s address bar, append “\*\*/esc\*\*” to the end of the instance URL. For example:&#x20;
+
+
+![Screenshot](../.gitbook/assets/recovered-57deda897875c5.png)
 
 3\. In the search box, type and then hit Enter
 
 > Where can I obtain updates and new releases for Mac OS X
 
 Notice how the Search now expands in a full-screen enhanced view, which will Now Assist users with AI Search to pull the top-ranked knowledge article, then sends it to the Now LLM to generate an answer to the original question. This is a huge time-saver, as employees only need to read part of the knowledge article; we use Now LLM to provide a succinct answer.&#x20;
+
+
+![Screenshot](../.gitbook/assets/recovered-4bb63e58cd8c6e.png)
 
 Notice that when you click the thumbs-up or thumbs-down buttons, feedback is sent to the Now LLM (if the customer has not opted out of data sharing).
 
