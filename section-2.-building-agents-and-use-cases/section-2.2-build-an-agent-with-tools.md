@@ -1,7 +1,5 @@
 # Section 2.2 Build an Agent with Tools
 
-## Section 2.2 Build an Agent with Tools
-
 1. Open AI Agent Studio **(All > AI Agent Studio > Overview)**
 2. Click the **Create and Manage** module.
 3. Click on the **AI Agent** tab, then click **Add**
