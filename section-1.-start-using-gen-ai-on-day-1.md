@@ -8,7 +8,7 @@ Now Assist was designed so customers could launch quickly and with minimal lift.
    \
    ![Unknown image](https://content.gitbook.com/content/DllbrTVbjzMeBclO7Dxo/blobs/5jXY7yA94K9m5I6w8xdX/Unknown%20image)<br>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Note: This lab uses Now Assist for ITSM, ITOM, and Creator, but everything we will do mirrors what you would do for customer service cases, HR cases, work orders, etc.
