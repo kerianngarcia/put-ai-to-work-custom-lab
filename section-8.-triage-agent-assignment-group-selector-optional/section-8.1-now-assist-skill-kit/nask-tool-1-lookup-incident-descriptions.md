@@ -39,6 +39,6 @@ return result;
 Your configuration should now look like this:<br>
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b46cdcf6a7eef7.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b46cdcf6a7eef7.png)
 
 No other configuration is needed you can now select continue until the tool is added.

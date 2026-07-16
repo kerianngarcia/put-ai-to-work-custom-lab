@@ -9,14 +9,14 @@
 1. Select list view, then scroll down to “\*\*Changes”\*\*. Select “\*\*Open\*\*” to get a list of all open Change Records.&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4992184693e14b.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4992184693e14b.png)
 2. From the list of open \*\*Changes\*\*, locate and click on “\*\*CHG0044021\*\*”.&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9870cb99b6f758.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9870cb99b6f758.png)
 3. Select the “\*\*Summarize\*\*’ button on the Overview to see the Summary of the Change Request.&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f833b457ee8ff5.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f833b457ee8ff5.png)
 
 \*\*Congratulations,\*\* you have generated your first change summarization! Please \*\*don’t close\*\* your browser or the workspace; we’ll continue exploring it in the next section.

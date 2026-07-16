@@ -11,17 +11,17 @@ The operator is a person who reviews alerts to identify issues, assess their imp
 1. Close any popups that appear when you first login and then open the \*\*Express List\*\* on the left navigation bar (the second icon from the bottom).&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-fa6dc0752c45dd.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-fa6dc0752c45dd.png)
 2. Close the pop-up window that appears. Typically, an operator would see alerts reported by monitoring tools in the Express List in near real-time. For this lab, alerts have been captured and pre-loaded onto your instance. Because of this, the alert times might not be recent enough to appear in the default window, so let’s expand the window.
 3. In the upper-right corner of the Express List, click the dropdown labeled \*\*Last week\*\*. This will display all alerts received by the system.&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f5002c85b1e2dd.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f5002c85b1e2dd.png)
 
 4\. The Express List should now show more alerts and some alert groups.&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-664cb15f21644b.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-664cb15f21644b.png)
 
 \*\*But first, a quick sidebar…\*\*
 

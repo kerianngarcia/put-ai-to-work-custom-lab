@@ -16,7 +16,7 @@
 5. Click \*\*Recommend\*\* button, then find the AI Agent you created previously&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-7455f76989c141.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-7455f76989c141.png)
 6. Click “\*\*+\*\*” button under \*\*Add AI agent\*\*
 7. You will get prompted for possible duplicates. Click “\*\*Ignore and continue\*\*. “In Define user access, click “Save and continue” on the following two steps
 8. Select “\*\*Any Authenticated user\*\*’ from the User access drop-down

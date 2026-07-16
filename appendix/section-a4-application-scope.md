@@ -9,14 +9,14 @@
 If you couldn’t find the “Platform AI Agents and Skills” application scope, then please look for “UXC Generative AI” and create your script under it.&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-068a22d420b1c5.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-068a22d420b1c5.png)
 
 And the action you are copying would be:\
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-264e5ba8679539.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-264e5ba8679539.png)
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4726d8197bb8c8.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4726d8197bb8c8.png)
 &#x20;\
 \\

@@ -9,12 +9,12 @@
 1\. Go back to “Define key requirements” section of the Agentic Workflow:
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-2895e921444264.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-2895e921444264.png)
 
 2\. We want to add a new AI Agent into the set of AI Agents this workflow has access to. Click “\*\*Create new AI agent\*\*” under “\*\*Add AI agents\*\*”:&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-55763a7b7c89ce.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-55763a7b7c89ce.png)
 
 3\. Fill in the following:\
 a. \*\*AI agent name\*\*: Determine Assignment Group AI Agent\
@@ -50,18 +50,18 @@ d. \*\*List of steps\*\*:
 4\. Press “\*\*Save and continue\*\*”\
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-387c5a8beacb41.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-387c5a8beacb41.png)
 5\. When potential duplicates are found, ignore and continue:&#x20;
 
 6\. In the tools and information section, we are going to add a new tool which will call our earlier created NASK skill. Click “\*\*Add tool\*\*” -> “\*\*Now Assist skill\*\*”
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ce1d8171cdbf41.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ce1d8171cdbf41.png)
 
 7\. Select your NASK skill in the pop-up window:&#x20;
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c16b8091a68f12.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c16b8091a68f12.png)
 
 {% hint style="info" %}
 If you can’t find your skill, it is not published in Now Assist skill kit and/or not turned on in the Now Assist Admin Console.\*If you can’t find your skill, it is not published in Now Assist skill kit and/or not turned on in the Now Assist Admin Console.\*
@@ -70,7 +70,7 @@ If you can’t find your skill, it is not published in Now Assist skill kit and/
 8\. Enter the following attributes:\
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-014bf9f9e2d463.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-014bf9f9e2d463.png)
 a. \*\*Name\*\*: Assignment group selector\
 b. \*\*Tool description\*\*: This tool will predict the right assignment group for the incoming incident\
 c. \*\*Execution mode\*\*: Autonomous\
@@ -96,7 +96,7 @@ f. \*\*Conditions\*\*: i. Field: Active Operator: is True/False: true\
 ii. Click ‘and’ to add an additional condition\
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-474fb930f66b29.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-474fb930f66b29.png)
 iii. Field: Number is \{{incident\\\_number\}} \\<br>
 
 {% hint style="info" %}
@@ -114,7 +114,7 @@ h. \*\*Execution mode\*\*: Autonomous\
 i. \*\*Display\*\* output: No 11. Click “Add” to save the tool to the AI Agent. 12. Add another tool to the AI Agent, this time it will be a script to update the worknotes. Click “\*\*Add tool\*\*” -> “\*\*Script\*\*”
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b66c42f08b4e30.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b66c42f08b4e30.png)
 
 13\. Fill in the following attributes for the tool\
 a. \*\*Name\*\*: Update incident worknotes\
@@ -160,16 +160,16 @@ message: 'No incident found with number ' + incidentNumber
 e. \\\*\\\*Execution mode\\\*\\\*: Autonomous \ f. \\\*\\\*Display output\\\*\\\*: No 14\\. Click “\\\*\\\*Save and continue\\\*\\\*” to go to the next section to define security controls for this AI Agent: \ a. \\\*\\\*Define user access\\\*\\\*: Any authenticated user, Save and continue \ b. \\\*\\\*User identity type\\\*\\\*: AI user \ c. \\\*\\\*AI user\\\*\\\*: itsm.aia.worker1. !\[]\(/files/AOaiKtV3IDVS7YdgJbvz)
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-8ad6cd9d89a4dc.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-8ad6cd9d89a4dc.png)
 
 d. Click “\*\*Save and continue\*\*” 15. We don’t need to add any triggers, so click again “\*\*Save and continue\*\*”\
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-15b27efa2a6c6b.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-15b27efa2a6c6b.png)
 16\. In the Select channels and status, switch on the “\*\*Engage via the Now Assist Panel\*\*” and make sure the AI Agent is toggled to \*\*Active\*\*.&#x20;
 
 17\. Save and add the AI agent to the Agentic Workflow.\
 
 
-![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ffee20ae7e7a73.png)
+![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ffee20ae7e7a73.png)
 18\. The final result should be that you have an extra AI Agent in your Agentic Workflow:&#x20;
