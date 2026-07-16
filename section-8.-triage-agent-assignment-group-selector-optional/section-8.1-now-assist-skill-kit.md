@@ -1,4 +1,4 @@
-# section-8.1-now-assist-skill-kit.md
+# Section 8.1 Now Assist Skill Kit
 
 ## section-8.1-now-assist-skill-kit.md
 
@@ -6,38 +6,31 @@
 
 ## Section 8.1 Now Assist Skill Kit
 
-Creation and management of custom skills is done through Now Assist Skill Kit landing page. Before you start ensure that you are in the IT Service Management AI agent collection application scope.&#x20;
+Creation and management of custom skills is done through Now Assist Skill Kit landing page. Before you start ensure that you are in the IT Service Management AI agent collection application scope.
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-344547d184178f.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-344547d184178f.png)
 
 {% hint style="info" %}
 You might also want to go to the incident (incident.list) table to create an incident that you can test with, however there is demo data in your instance that we can useYou might also want to go to the incident (incident.list) table to create an incident that you can test with, however there is demo data in your instance that we can use
 {% endhint %}
 
-1\. Navigate to Now Assist Skill Kit à Home to get started with a new skill creation, from there select:  2. In the skill creation fill out the following: \* Skill name: Assignment group selector \* Description: This skill selects assignment groups based on information in the incident \* Default provider: Azure OpenAI \* Default provider API: Chat Completions\
+1\. Navigate to Now Assist Skill Kit à Home to get started with a new skill creation, from there select: 2. In the skill creation fill out the following: \* Skill name: Assignment group selector \* Description: This skill selects assignment groups based on information in the incident \* Default provider: Azure OpenAI \* Default provider API: Chat Completions\\
 
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b65df7d453d9db.png)\
+Scroll down and add the itil role in the section “Apply role restrictions to skill”.\\
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b65df7d453d9db.png)
-\
-Scroll down and add the itil role in the section “Apply role restrictions to skill”.\
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c84532a55228e0.png)
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c84532a55228e0.png)
-
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d5e162e67731a9.png)
-Then select Skip to Prompt editor.\
-\\&#x20;
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d5e162e67731a9.png) Then select Skip to Prompt editor.\
+\\
 
 {% hint style="info" %}
 As an alternative we could have followed the guide to complete the prompt setup however we can save you time by jumping ahead.
 {% endhint %}
 
-3\. Now you can start building your skill:&#x20;
+3\. Now you can start building your skill:
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ac51a16a8cf090.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ac51a16a8cf090.png)
 
 3.1 Add an input by hitting +, for this we will use a String input since we will use it in an AI agent. Datatype: String, Name: incidentnumber (yes, in one word) 3.2 Add your prompt, to save you time we have created a prompt for you but you are free to modify the prompt if you want to change the response.\
 Notice the inputs added in \{{brackets\}} we will add these in the next step.
@@ -90,8 +83,7 @@ Hard rules:
 
 3.3 Go to the “Add tools” tab to add tools.
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-28f10ee60b1992.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-28f10ee60b1992.png)
 
 {% hint style="info" %}
 In the tool editor we need to add two tools. For this exercise we will use script tools that are the fastest to add, however in a deployment we would rather recommend using a flow action or sub flows as these are easier to maintain and test.

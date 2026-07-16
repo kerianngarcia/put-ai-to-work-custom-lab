@@ -1,4 +1,4 @@
-# Duplicate OOTB Agentic Workflow | World Forums and Summits Learning Labs 2026
+# Duplicate OOTB Agentic Workflow
 
 ## duplicate-ootb-agentic-workflow.md
 
@@ -6,11 +6,9 @@
 
 ## Duplicate OOTB Agentic Workflow
 
-1\. Open the Agentic Workflow again via the “Create and manage” tab, OR when still in the testing console click “Edit workflow”\
+1\. Open the Agentic Workflow again via the “Create and manage” tab, OR when still in the testing console click “Edit workflow”\\
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b817c3172db88f.png)
-2\. On the right side of the screen, you will see a button with three vertical dots, click this to Duplicate the agentic workflow:
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b817c3172db88f.png) 2. On the right side of the screen, you will see a button with three vertical dots, click this to Duplicate the agentic workflow:
 
 3\. Give your copy a name – use your imagination J\
 4\. Change the description so it includes the fact that we want to determine the assignment group:
@@ -47,7 +45,6 @@ IMPORTANT:
 
 6\\. Create a new Version (version 2).
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-cb61b5586fc10f.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-cb61b5586fc10f.png)
 
 7. Click “Save and continue”

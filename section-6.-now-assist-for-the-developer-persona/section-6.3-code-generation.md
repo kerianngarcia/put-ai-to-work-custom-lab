@@ -1,4 +1,4 @@
-# section-6.3-code-generation.md
+# Section 6.3 Code Generation
 
 ## section-6.3-code-generation.md
 
@@ -6,21 +6,16 @@
 
 ## Section 6.3 Code generation
 
-1. \*\*Go to All > System Definition > Script Includes.\*\* A script is a reusable server-side script that provides logic to define a function or class.&#x20;
+1. \*\*Go to All > System Definition > Script Includes.\*\* A script is a reusable server-side script that provides logic to define a function or class.
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9586c5fec20d88.png)
-2. Select \*\*New\*\* in the upper right-hand corner.
-3. Close any popups that appear, then give the Script Include a Name (e.g., \*\*\*\[Your initials] Test Script) and a Description of “My first test script”.\*\*\*
-4. Replace the default code with the following:
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9586c5fec20d88.png) 2. Select \*\*New\*\* in the upper right-hand corner. 3. Close any popups that appear, then give the Script Include a Name (e.g., \*\*\*\[Your initials] Test Script) and a Description of “My first test script”.\*\*\* 4. Replace the default code with the following:
 
 ```
 //predict assignment group using predictive intelligence classification model
 ```
 
-5. Now, \*\*hit CMD + Return (Mac) or CTRL + ENTER (Windows)\*\*&#x20;
+5. Now, \*\*hit CMD + Return (Mac) or CTRL + ENTER (Windows)\*\*
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-2b3e928060f454.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-2b3e928060f454.png)
 
 This feature allows you to use Now Assist to write a custom script based on your instructions. 6. When you are finished, click \*\*Submit\*\* \*\*Congratulations,\*\* you have completed the Now Assist for the Developer persona portion of the lab! \\

@@ -1,4 +1,4 @@
-# NASK Tool 2: Lookup assignment groups | World Forums and Summits Learning Labs 2026
+# NASK Tool 2: Lookup Assignment Groups
 
 ## nask-tool-2-lookup-assignment-groups.md
 
@@ -41,15 +41,12 @@ return JSON.stringify(groups);
 
 Configuration should now look like this:
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4309c00d770b1d.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4309c00d770b1d.png)
 
 Again, no other configuration is needed select continue until you have added the tool. Your flow should look similar to the image below. The exact order does not matter as both scripts will execute prior to the prompt.
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d2036b26e8541c.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d2036b26e8541c.png)
 
 To control, check back with your prompt, the \{{inputs\}} should be blue indicating that they are matched with the tools you have added.
 
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-97f7564538961f.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-97f7564538961f.png)
