@@ -9,7 +9,7 @@
 The last settings before we can use the Agentic Workflow need to be made. Go through the following sections of the agentic workflow:\
 
 
-![Screenshot](../.gitbook/assets/recovered-0786cdd115804b.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-0786cdd115804b.png)
 \- Define security controls\
 \- Add triggers\
 \- Select channels and status
@@ -17,30 +17,30 @@ The last settings before we can use the Agentic Workflow need to be made. Go thr
 1\. Define security controls:\
 
 
-![Screenshot](../.gitbook/assets/recovered-8222a0b96c219e.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-8222a0b96c219e.png)
 a. Define user access: Allow if roles \*\*itil\*\*&#x20;
 
 b. Define data access:\
 
 
-![Screenshot](../.gitbook/assets/recovered-384bb4357ce54d.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-384bb4357ce54d.png)
 i. \*\*User identity type\*\*: AI user\
 ii. \*\*AI user\*\*: itsm.aia.worker&#x20;
 
 2\. Activate the OOTB copy trigger, by selecting \*\*Trigger is ON\*\*:&#x20;
 
 
-![Screenshot](../.gitbook/assets/recovered-29806c329d8546.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-29806c329d8546.png)
 
 3\. Select channels and status: make sure \*\*Engage via the Now Assist Panel\*\* is switched on:&#x20;
 
 
-![Screenshot](../.gitbook/assets/recovered-285789d0f04853.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-285789d0f04853.png)
 
 4\. You can now \*\*Save and test\*\* the workflow. In order to test the workflow, you can either create an incident, or use an existing incident in testing mode. \\\
 
 
-![Screenshot](../.gitbook/assets/recovered-19a93a5b58e23c.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-19a93a5b58e23c.png)
 If everything is correct, you will see fields automatically being updated and worknotes being generated about what the AI Agents have been executing:&#x20;
 
 \*Congratulations! You finsihed this lab section and created an Agentic Workflow including a custom AI Agent.\*

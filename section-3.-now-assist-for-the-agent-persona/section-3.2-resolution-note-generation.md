@@ -10,15 +10,15 @@
 2. In the upper-right corner of the incident, locate the \*\*Resolve button\*\* on the right side. Click it to generate resolution notes.&#x20;
 
 
-![Screenshot](../.gitbook/assets/recovered-52360203b950c0.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-52360203b950c0.png)
 
 Now Assist reviews the work notes for the current ticket and generates a potential resolution. 3. In the Resolve pop-up window, \*\*select a resolution code\*\* from the drop-down: \*\*Solution provided\*\*. 4. From the resolution notes box, click on the Now Assist icon to generate the resolution notes:  3. Click “\*\*Resolve\*\*” to save it to the ticket.&#x20;
 
 
-![Screenshot](../.gitbook/assets/recovered-5f069b72d48fbe.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-5f069b72d48fbe.png)
 
 
-![Screenshot](../.gitbook/assets/recovered-a834cca4e19d39.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-a834cca4e19d39.png)
 
 5. \*\*Select the details tab\*\* of the Incident. Notice that the resolution was copied to the Resolution notes field, and the state of the ticket went from New to Resolved.
 

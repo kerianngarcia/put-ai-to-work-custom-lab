@@ -11,11 +11,11 @@ Everyone in the room has probably drawn a brilliant flow on a whiteboard and the
 1. \*\*Open Workflow Studio (All > Process Automation > Workflow Studio).\*\* The ServiceNow platform uses workflows to orchestrate process steps and integrate them into systems; Flow Designer is used to build out those workflows.&#x20;
 
 
-![Screenshot](../.gitbook/assets/recovered-330f73a6b32b64.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-330f73a6b32b64.png)
 2. Flow Designer will open in a new tab. On the far right, click the \*\*“New\*\*” button. From the dropdown menu, select “\*\*Playbook\*\*”&#x20;
 
 
-![Screenshot](../.gitbook/assets/recovered-6289a10ffc67cc.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-6289a10ffc67cc.png)
 3. Copy and paste the following TEXT into the description
 
 > > \*Step 1 — Pre-Intake (GCR-Creative)\*\
@@ -54,10 +54,10 @@ Everyone in the room has probably drawn a brilliant flow on a whiteboard and the
 > \*.\*
 
 
-![Screenshot](../.gitbook/assets/recovered-261ae1717c34af.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-261ae1717c34af.png)
 
 
-![Screenshot](../.gitbook/assets/recovered-ae040fc9ee9b25.png)
+![Screenshot](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ae040fc9ee9b25.png)
 
 4. Enter a Flow name in the ‘Attach an Image section, select the file you just downloaded, then click “\*\*Generate flow preview”\*\*.&#x20;
 5. Take a closer look at the resultant flow! You have a huge jumpstart on the playbook development with help from Now Assist for Creator. When you are finished, \*\*click Discard playbook.\*\*&#x20;
