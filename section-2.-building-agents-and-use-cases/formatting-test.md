@@ -1,4 +1,10 @@
-# Formatting Test
+---
+description: >-
+  In this exercise, you will create an AI Agent, add tools, configure security,
+  and test the agent against an incident.
+---
+
+# Section 2.2 Build an Agent with Tools
 
 ### Create the AI Agent
 
@@ -48,7 +54,7 @@ Format the output message so it is easy to read, with new line characters in a l
 If you do not see the recommended tools, click **Add tool** and manually select the exact tools listed in this guide. Ask the instructor for help if needed.
 {% endhint %}
 
-<figure><img src="https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9e5932049ce59c.jpg" alt=" "><figcaption><p>Recommended Tools</p></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9e5932049ce59c.jpg" alt=""><figcaption><p>Recommended Tools</p></figcaption></figure>
 
 ### Create the Additional Comments Tool
 
