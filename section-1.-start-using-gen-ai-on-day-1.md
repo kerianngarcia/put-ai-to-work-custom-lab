@@ -6,7 +6,7 @@ Now Assist was designed so customers could launch quickly and with minimal lift.
 
 1. Go to All > Now Assist Admin > Overview. Close the intro splash screen.\
    \
-   ![Unknown image](https://content.gitbook.com/content/DllbrTVbjzMeBclO7Dxo/blobs/5jXY7yA94K9m5I6w8xdX/Unknown%20image)<br>
+   ![](https://content.gitbook.com/content/DllbrTVbjzMeBclO7Dxo/blobs/5jXY7yA94K9m5I6w8xdX/Unknown%20image)<br>
 
 <figure><img src=".gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -14,9 +14,11 @@ Now Assist was designed so customers could launch quickly and with minimal lift.
 Note: This lab uses Now Assist for ITSM, ITOM, and Creator, but everything we will do mirrors what you would do for customer service cases, HR cases, work orders, etc.
 {% endhint %}
 
+
 2. Navigate back to the **Now Assist Admin (All > Now Assist Admin > Overview**) console and click the **Performance** tab to view the Usage and Adoption dashboards, which provide a picture of the overall health and engagement for Now Assist.
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 
 
 
