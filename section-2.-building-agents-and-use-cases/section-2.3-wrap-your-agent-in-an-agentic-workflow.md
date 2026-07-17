@@ -28,7 +28,9 @@ This workflow will be the Incident Solution Agent workflow. This use case provid
 
 9. Find the AI Agent you created previously.
 
-![Recommended AI Agent](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-7455f76989c141.png)
+<p align="center">
+  <img src="../assets/section-2/S2.3-1.png" width="100%">
+</p>
 
 10. Under **Add AI agent**, click **+**.
 
