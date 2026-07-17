@@ -6,7 +6,9 @@ Now Assist was designed so customers could launch quickly and with minimal lift.
 
 1. Go to All > Now Assist Admin > Overview. Close the intro splash screen.
 
-![](assets/section-1/S1-1.png)
+<p align="center">
+  <img src="assets/section-1/S1-1.png" width="100%">
+</p>
 
 <p align="center">
   <img src="assets/section-1/S1-2.png" width="100%">
