@@ -18,7 +18,16 @@ In this optional exercise, you will extend the incident solution agent so it can
 
 4. Click **New**.
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-1.png" width="100%">
+</p>
+
+
 5. On the **Outage New record** page, configure the following values.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-2.png" width="100%">
+</p>
 
 | Field | Value |
 |---|---|
@@ -32,6 +41,10 @@ In this optional exercise, you will extend the incident solution agent so it can
 ## Switch Application Scope
 
 8. Click the application scope icon at the top of the page.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-3.png" width="100%">
+</p>
 
 9. Configure the following value.
 
@@ -65,9 +78,17 @@ If you cannot find **Platform AI Agents and Skills**, refer to Appendix Section 
 Do not open **Get Similar Incident Records**.
 {% endhint %}
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-4.png" width="100%">
+</p>
+
 13. Click the three-dot menu in the top-right corner.
 
 14. Click **Copy**.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-5.png" width="100%">
+</p>
 
 15. Configure the copied action using the values below.
 
@@ -76,9 +97,17 @@ Do not open **Get Similar Incident Records**.
 | Action name | [Your initials] Get Similar Records and Outages |
 | Application | Platform AI Agents and Skills |
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-6.png" width="100%">
+</p>
+
 16. Click **Copy**.
 
 17. On the left, click **Script Step**.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-7.png" width="100%">
+</p>
 
 18. Replace the script with the script below.
 
@@ -149,6 +178,10 @@ Do not open **Get Similar Incident Records**.
 
 19. In the **Output Variables** window, delete both existing variables.
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-8.png" width="100%">
+</p>
+
 20. On the left, click **Outputs**.
 
 21. Click **Edit Outputs**.
@@ -165,9 +198,17 @@ Do not open **Get Similar Incident Records**.
 | Name | outage_details |
 | Type | String |
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-9.png" width="100%">
+</p>
+
 25. Click **Exit Edit Mode**.
 
 26. Drag and drop the script step variables from the right into the corresponding boxes in the middle.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-10.png" width="100%">
+</p>
 
 ## Test and Publish the Action
 
@@ -184,6 +225,10 @@ Do not open **Get Similar Incident Records**.
 
 30. When the test completes, click **Your test has finished running. View the Action execution details.**
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-11.png" width="100%">
+</p>
+
 31. Return to the previous window.
 
 32. Click **Save**, then click **Publish**.
@@ -191,6 +236,10 @@ Do not open **Get Similar Incident Records**.
 33. Close the Workflow Studio browser tab and return to the main lab browser tab.
 
 34. Change the application scope back to **Global**.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-12.png" width="100%">
+</p>
 
 ## Copy the Create Outage Action
 
@@ -202,7 +251,15 @@ Do not open **Get Similar Incident Records**.
 
 36. On the **Actions** tab, search for **outage**.
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-13.png" width="100%">
+</p>
+
 37. Open **Create Outage**.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-14.png" width="100%">
+</p>
 
 38. Copy the action and name it:
 
@@ -216,6 +273,10 @@ Do not open **Get Similar Incident Records**.
 - type
 - begin
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-15.png" width="100%">
+</p>
+
 40. On the left, click **Script Step**.
 
 41. Delete the following variables.
@@ -223,6 +284,10 @@ Do not open **Get Similar Incident Records**.
 - cmdbCI
 - type
 - begin
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-16.png" width="100%">
+</p>
 
 42. Replace the existing script with the script below.
 
@@ -254,6 +319,10 @@ Do not open **Get Similar Incident Records**.
 | Type | String |
 | Mandatory | True |
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-17.png" width="100%">
+</p>
+
 44. On the left, click **Outputs**.
 
 45. Click **Edit Outputs**.
@@ -268,9 +337,17 @@ Do not open **Get Similar Incident Records**.
 | Name | outage_number |
 | Type | String |
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-18.png" width="100%">
+</p>
+
 48. Click **Exit Edit Mode**.
 
 49. Drag the **OutageRecordNumber** script variable to the **Outage Number** action output box.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-19.png" width="100%">
+</p>
 
 ## Test and Publish the Create Outage Action
 
@@ -281,6 +358,10 @@ Do not open **Get Similar Incident Records**.
 52. Click **Run Test**.
 
 53. When the test completes, click **Your test has finished running. View the Action execution details.**
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-20.png" width="100%">
+</p>
 
 54. Return to the previous window.
 
@@ -305,6 +386,10 @@ Now open AI Agent Studio and build another AI Agent by duplicating **Incident So
 4. Select **Incident Solution Recommender**.
 
 5. Use the top-right form button to duplicate the agent.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-21.png" width="100%">
+</p>
 
 6. Click **Duplicate** when prompted.
 
@@ -344,6 +429,10 @@ Get Similar Incident Records and Outages
 [Your Initials] Get Similar Records and Outages
 ```
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-22.png" width="100%">
+</p>
+
 13. Click **Save**.
 
 ## Add the Create Outage Tool
@@ -367,6 +456,10 @@ Get Similar Incident Records and Outages
 
 18. Confirm the tools look correct.
 
+<p align="center">
+  <img src="../assets/section-2/S2.4-23.png" width="100%">
+</p>
+
 19. Click **Save and Continue**.
 
 20. On **Define Availability**, set **Status** to **On**.
@@ -384,6 +477,10 @@ INC0010004
 2. Click **Start test**.
 
 3. At the end of the test, check the comments in **INC0010004**.
+
+<p align="center">
+  <img src="../assets/section-2/S2.4-23.png" width="100%">
+</p>
 
 ## Completion
 
