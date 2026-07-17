@@ -35,7 +35,7 @@ Provide the visitor with output directions as a numbered list.
 ```
 
 <p align="center">
-  <img src="assets/section-2/S2.1-1.png" width="100%">
+  <img src="assets/section-1/S2.1-1.png" width="100%">
 </p>
 
 7. Click **Generate**.
