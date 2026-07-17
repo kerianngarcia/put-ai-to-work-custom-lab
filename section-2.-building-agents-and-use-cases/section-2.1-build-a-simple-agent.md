@@ -1,56 +1,134 @@
-# Section 2.1 Build a Simple Agent
+# Section 2.1 - Build a Simple Agent
 
 {% hint style="info" %}
-Note: In the following lab, we will talk through prompting many times. To learn more about prompting in ServiceNow, visit our community and our Product Manager’s excellent guide on prompting by clicking [HERE](https://www.servicenow.com/community/now-assist-articles/now-assist-ai-agents-prompting-guide/ta-p/3386242).
+**Note**
+
+In this lab, you will talk through prompting several times. To learn more about prompting in ServiceNow, review the ServiceNow community guide: [Now Assist AI Agents Prompting Guide](https://www.servicenow.com/community/now-assist-articles/now-assist-ai-agents-prompting-guide/ta-p/3386242).
 {% endhint %}
 
-Now let’s begin!
+## Create the AI Agent
 
-1. Open AI Agent Studio (All > AI Agent Studio > Overview)
-2. Locate the section titled, “**Active in your Organization**”. Select the **AI Agents** tab, then click “**Add->Chat**”.
-3. A configuration page for “New AI agent” will open. Complete the fields with the information given below. In the Define the specialty Area, click on ‘**Generate details**.’
-4.  Copy and paste the following into the dialog, we will Now Assist in filling in our fields for us\
-    \
-    &#xNAN;_&#x49; want my AI Agent to be a hospital campus concierge. Provide directions to visitors and patients. You are a hospital concierge whose job is to provide directions to specific hospital departments. You will always be friendly but favor brevity, so your messages are easy to read on mobile devices. If it hasn't already been provided, ask the visitor for their destination. Look up the supplied destination in the location tab. If you cannot find the destination, assume this is a lab environment and create a feasible answer—list directions to walk from the visitor’s or your current location to the destination. If you do not have the visitor's current location, assume they are in the hospital’s east wing, which is where the front door is. Provide the visitor with output directions as a numbered list._<br>
+1. Open **AI Agent Studio**.
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-5.  Click on **"Generate"**.<br>
+   Navigate to:
 
-    <figure><img src="../.gitbook/assets/Generate a Des.png" alt=""><figcaption></figcaption></figure>
+   `All > AI Agent Studio > Overview`
+
+2. Locate **Active in your Organization**.
+
+3. Select the **AI Agents** tab, then click **Add > Chat**.
+
+4. On the **New AI Agent** configuration page, complete the fields using the information below.
+
+5. In **Define the specialty area**, click **Generate details**.
+
+6. Copy and paste the following prompt into the dialog.
+
+```text
+I want my AI Agent to be a hospital campus concierge. Provide directions to visitors and patients. You are a hospital concierge whose job is to provide directions to specific hospital departments. You will always be friendly but favor brevity, so your messages are easy to read on mobile devices.
+
+If it has not already been provided, ask the visitor for their destination. Look up the supplied destination in the location tab. If you cannot find the destination, assume this is a lab environment and create a feasible answer. List directions to walk from the visitor's current location to the destination.
+
+If you do not have the visitor's current location, assume the visitor is in the hospital's east wing, where the front door is.
+
+Provide the visitor with output directions as a numbered list.
+```
+
+7. Click **Generate**.
 
 {% hint style="info" %}
-Tip: If you do not see the entry field for “AI Agent Role”, you may be in the wrong section! Check the upper left corner of the screen and confirm that you are in the “New AI Agent” setup.
+**Tip**
+
+If you do not see the entry field for **AI Agent Role**, you may be in the wrong section. Check the upper-left corner of the screen and confirm that you are in the **New AI Agent** setup.
 {% endhint %}
 
 {% hint style="info" %}
-Note: In a non-lab environment and with MCP, you could expose agents to third parties, add memory categories, or allow the agent to learn from past executions, but for this lab, we will NOT.
+**Note**
+
+In a non-lab environment and with MCP, you could expose agents to third parties, add memory categories, or allow the agent to learn from past executions. For this lab, do not change those settings.
 {% endhint %}
 
-6. Click "**Save and continue**."
-7. Next is the “**Add tools and information**” section. We are not adding tools for this agent, so simply click “**Save and continue**”.
-8. In Define security controls, click “**Save and continue**” on the following two steps
-   1. Define user access -> select '**Any Authenticated user**’ from the User access drop-down, press "Save and continue".
-   2. Define data access -> Select the **Dynamic user**, search for and select ‘**itil**’ and '**admin**' from the approved roles, press "Save and continue".
-9. Next, in the Add triggers section, click “**Save and continue**”.
-10. Next, in the Select channels and status, you can enable Agents to communicate via the Now Assist for Virtual Agent (via Employee center, or Service Portal), but for this example, we will NOT change the selection.
-11. In the Communicate, this AI agent’s process to users, click on “**Generate** **messages**” letting Now assist create them for you, when the agent is ‘thinking’ and when it has completed its task
-12. On the **Activation status** area, make sure the Status toggle is set to **On**
-13. Click **Save and Test**
+8. Click **Save and continue**.
 
-**Now let's test the agent!**
+## Add Tools and Information
 
-* In the Task box enter “I need help finding my appointment” and click “**Continue to Test Chat response**.”
-* When asked, type in any department name, e.g., “radiology”, and press enter. Once the conversation is finished, take your time to expand and read through the entire AI agent's decision log.
-* **Thought**: A recap on the overall mission of the agent followed by what the Agent thinks needs to be done next.
-* **Action**: The next step that the agent feels it needs to take. Note that in the absence of any tools, the agent falls back to built-in capabilities for sending messages back to the user.
-* **Action Inputs**: The inputs the AI Agent decided to pass on to the tool or, in this case, the built-in fall-back capability
+9. In **Add tools and information**, click **Save and continue**.
 
-Your responses and the results generated by Now Assist in creating this agent could differ.<br>
+   This agent does not require additional tools.
 
-<figure><img src="../.gitbook/assets/2.1.png" alt=""><figcaption></figcaption></figure>
+## Configure Security
+
+10. In **Define security controls**, click **Save and continue**.
+
+11. Configure user access.
+
+| Setting | Value |
+|---|---|
+| User access | Any Authenticated User |
+
+12. Click **Save and continue**.
+
+13. Configure data access.
+
+| Setting | Value |
+|---|---|
+| User type | Dynamic user |
+| Approved roles | itil, admin |
+
+14. Click **Save and continue**.
+
+## Configure Triggers, Channels, and Messages
+
+15. In **Add triggers**, click **Save and continue**.
+
+16. In **Select channels and status**, leave the default selections unchanged.
+
+   Agents can be enabled for Now Assist for Virtual Agent through Employee Center or Service Portal. For this lab, do not change the default selection.
+
+17. In **Communicate this AI agent's process to users**, click **Generate messages**.
+
+18. Review the generated messages. The messages explain what the agent displays while it is thinking and when it completes the task.
+
+19. In **Activation status**, set **Status** to **On**.
+
+20. Click **Save and Test**.
+
+## Test the Agent
+
+1. In the **Task** box, enter:
+
+```text
+I need help finding my appointment
+```
+
+2. Click **Continue to Test Chat response**.
+
+3. When asked, enter a department name, such as:
+
+```text
+radiology
+```
+
+4. Press **Enter**.
+
+5. After the conversation finishes, expand and review the AI agent's decision log.
+
+## What to Observe
+
+| Decision log section | What to look for |
+|---|---|
+| Thought | A recap of the agent's mission and what the agent thinks should happen next. |
+| Action | The next step the agent wants to take. Without tools, the agent uses built-in capabilities to respond to the user. |
+| Action Inputs | The inputs the AI Agent passes to the tool or built-in fallback capability. |
+
+Your responses and the results generated by Now Assist may differ.
 
 {% hint style="info" %}
-Dive Deeper: How could this lab example be expanded to a real-world environment? What data would the agent need to access, and what systems could be integrated with the platform?\
-\
-For an overview of a similar use case that was put into action this year, check out [Elevating the Meeting Center Experience at Knowledge 2025](https://www.servicenow.com/community/wsd-blog/elevating-the-meeting-center-experience-at-knowledge-2025/ba-p/3254040). **Challenge**: What would your AI agent do? Check the Appendix Section A2: Agent Ideas for a few more ideas.
+**Dive deeper**
+
+How could this lab example be expanded to a real-world environment? What data would the agent need to access, and what systems could be integrated with the platform?
+
+For a similar use case, review [Elevating the Meeting Center Experience at Knowledge 2025](https://www.servicenow.com/community/wsd-blog/elevating-the-meeting-center-experience-at-knowledge-2025/ba-p/3254040).
+
+**Challenge:** What would your AI agent do? See Appendix Section A2: Agent Ideas for more examples.
 {% endhint %}
