@@ -6,7 +6,7 @@ Log into the instance with the “Magic link” as Admin.&#x20;
 
 Navigate to AI Search > AI Search Status
 
-&#x20;![Unknown image](https://content.gitbook.com/content/DllbrTVbjzMeBclO7Dxo/blobs/pnZfgK6VuczTBVVUOvIs/Unknown%20image)&#x20;
+&#x20;![](https://content.gitbook.com/content/DllbrTVbjzMeBclO7Dxo/blobs/pnZfgK6VuczTBVVUOvIs/Unknown%20image)&#x20;
 
 
 
