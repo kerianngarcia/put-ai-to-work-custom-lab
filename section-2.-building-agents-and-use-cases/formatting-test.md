@@ -23,9 +23,9 @@ Add resolution steps, along with any relevant similar incidents and knowledge ar
 Format the output message so it is easy to read, with new line characters in a list format. Also provide the reasoning for recommending these steps.
 ```
 
-![Generated AI Agent](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-a8f1eca0d9ee48.jpg)
-
 ![Generated AI Agent details](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-eccbfcb479f456.jpg)
+
+![Generated AI Agent](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-a8f1eca0d9ee48.jpg)
 
 5.  Review the generated values.
 
@@ -48,7 +48,7 @@ Format the output message so it is easy to read, with new line characters in a l
 If you do not see the recommended tools, click **Add tool** and manually select the exact tools listed in this guide. Ask the instructor for help if needed.
 {% endhint %}
 
-![Recommended Tools](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9e5932049ce59c.jpg)
+<figure><img src="https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9e5932049ce59c.jpg" alt=" "><figcaption><p>Recommended Tools</p></figcaption></figure>
 
 ### Create the Additional Comments Tool
 
