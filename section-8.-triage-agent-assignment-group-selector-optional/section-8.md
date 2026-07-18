@@ -1,42 +1,28 @@
-# Section 8.4 Finalize and test the Agentic Workflow | World Forums and Summits Learning Labs 2026
+# Section 8 - Triage Agent Assignment Group Selector (Optional)
 
-For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). This page is also available as [Markdown](section-8.4-finalize-and-test-the-agentic-workflow.md).
+In this optional section, you will build a custom assignment group prediction capability using Now Assist Skill Kit, AI Agents, and Agentic Workflows.
 
-The last settings before we can use the Agentic Workflow need to be made. Go through the following sections of the agentic workflow:
-- Define security controls
-- Add triggers
-- Select channels and status
+{% hint style="info" %}
+### In this section, you will
 
-![](../.gitbook/assets/asset-0786cdd115804b67.png)
+☐ Create a custom NASK skill.
+☐ Add script tools to the skill.
+☐ Test and publish the skill.
+☐ Duplicate an OOTB Agentic Workflow.
+☐ Build and add a custom AI Agent.
+☐ Test the completed workflow.
+{% endhint %}
 
-1. Define security controls:
-a. Define user access: Allow if roles **itil**
+## Labs
 
-![](../.gitbook/assets/asset-8222a0b96c219ef7.png)
+### [Section 8.1 Now Assist Skill Kit](section-8.1-now-assist-skill-kit.md)
+Create a custom assignment group selector skill.
 
-b. Define data access:
-i. **User identity type**: AI user
-ii. **AI user**: itsm.aia.worker
+### [Section 8.2 Test, Finalize and Publish Your Skill](section-8.2-test-finalize-and-publish-your-skill.md)
+Validate and publish the skill.
 
-![](../.gitbook/assets/asset-384bb4357ce54d31.png)
+### [Section 8.3 Building AI Agents](section-8.3-building-ai-agents.md)
+Extend an OOTB workflow with a custom AI Agent.
 
-2. Activate the OOTB copy trigger, by selecting **Trigger is ON**:
-
-![](../.gitbook/assets/asset-29806c329d8546df.png)
-
-3. Select channels and status: make sure **Engage via the Now Assist Panel** is switched on:
-
-![](../.gitbook/assets/asset-285789d0f048531d.png)
-
-4. You can now **Save and test** the workflow.
-
-In order to test the workflow, you can either create an incident, or use an existing incident in testing mode.
-If everything is correct, you will see fields automatically being updated and worknotes being generated about what the AI Agents have been executing:
-
-![](../.gitbook/assets/asset-19a93a5b58e23c60.png)
-
-*Congratulations! You finsihed this lab section and created an Agentic Workflow including a custom AI Agent.*
-
-[PreviousAdd AI Agent to Agentic Workflow](section-8.3-building-ai-agents/add-ai-agent-to-agentic-workflow.md)[NextAppendix](../appendix.md)
-
-Last updated 2 days ago
+### [Section 8.4 Finalize and Test the Agentic Workflow](section-8.4-finalize-and-test-the-agentic-workflow.md)
+Complete configuration and validate the workflow.
