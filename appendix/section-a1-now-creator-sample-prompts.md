@@ -1,53 +1,150 @@
-# section-a1-now-creator-sample-prompts.md
+# Section A1 - Now Creator Sample Prompts
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/appendix/section-a1-now-creator-sample-prompts.md).
-# Section A1: Now Creator Sample Prompts
-\*\*Text to Flow Examples\*\*
-> Anytime an incident record is created. Wait 1 minute. If the incident priority equals high, then send a Teams message.
-> Whenever a change request is created or updated where the model is an unauthorized demo, do the following: Apply change approval policy. If approvals are approved or skipped, update change request record as approved. If not, update change request record as rejected. Evaluate the model once again. If rejected, send an email. Wait until active is false, disregard change request approvals, and evaluate the change model.\
-> \
-> When an expense claim is submitted, email the user that the claim has been received. Then, ask their manager for approval. If the manager approves, change the status to approved and inform the user via email. If rejected, send an email.
-\*\*Text To Code Examples\*\*
+This appendix contains sample prompts that can be used with **Now Assist for Creator** when generating flows, scripts, and other automation assets.
+
+These examples are intended to inspire experimentation and demonstrate the types of requests that can be translated into workflows or code.
+
+## Text-to-Flow Examples
+
+Use prompts like the following when generating flows from natural language.
+
+### Example 1 - High Priority Incident Notification
+
+```text
+Anytime an incident record is created. Wait 1 minute. If the incident priority equals High, then send a Teams message.
 ```
-//write a function which takes an input in Celsius and returns the value in Fahrenheit
+
+### Example 2 - Change Approval Process
+
+```text
+Whenever a change request is created or updated where the model is an unauthorized demo, do the following:
+
+- Apply change approval policy.
+- If approvals are approved or skipped, update the change request as Approved.
+- If approvals are not approved, update the change request as Rejected.
+- Evaluate the model again.
+- If rejected, send an email.
+- Wait until Active is False.
+- Disregard change request approvals.
+- Evaluate the change model again.
 ```
+
+### Example 3 - Expense Approval Workflow
+
+```text
+When an expense claim is submitted:
+
+- Email the user that the claim has been received.
+- Request manager approval.
+- If the manager approves:
+  - Change the status to Approved.
+  - Notify the user by email.
+- If the request is rejected:
+  - Send a rejection email.
 ```
-//validate that the variable emails is a string and has allowed syntax
+
+---
+
+## Text-to-Code Examples
+
+Use prompts like the following to generate scripts, business rules, script actions, or other server-side logic.
+
+### Temperature Conversion
+
+```javascript
+// Write a function that takes an input in Celsius and returns the value in Fahrenheit
 ```
+
+### Email Validation
+
+```javascript
+// Validate that the variable emails is a string and has allowed syntax
 ```
-//if the syntax is allowed, return true
+
+```javascript
+// If the syntax is allowed, return true
 ```
+
+### Incident Queries
+
+```javascript
+// Return all critical incidents created in the last 6 months
 ```
-//return all critical incidents created in the last 6 months
+
+```javascript
+// Function to query the incident table and find the most recent record created in the last quarter by the current user
 ```
+
+```javascript
+// Get all active incidents where the caller is a VIP
 ```
-// function to query the incident table to find the latest record created in the last quarter by the current user
+
+### Email Domain Verification
+
+```javascript
+// If email is provided, ensure it is from my domain
 ```
+
+```javascript
+// If not, abort the action
 ```
-// If email is provided, ensure it is from my domain.
+
+### SLA Monitoring
+
+```javascript
+// If 90 percent of the SLA has been consumed, send an alert to the assignment group manager
 ```
+
+### Reporting and Analytics
+
+```javascript
+// Use GlideAggregate to count the number of P1 incidents closed between March 3 and April 13, 2023 assigned to Admin
 ```
-//If not, abort the action
+
+---
+
+## Email Script Example
+
+Use prompts like the following when generating email scripts.
+
+```javascript
+// Find all open incidents assigned to inactive users and email the manager
 ```
+
+---
+
+## Fix Script Example
+
+Use prompts like the following when generating fix scripts.
+
+```javascript
+// Write a GlideRecord query to find all locked-out users and email their manager
 ```
-//Get all active incidents where the caller is a VIP
+
+---
+
+## Script Include Example
+
+Use prompts like the following when generating Script Includes.
+
+```javascript
+// Create a function that uses a regular expression to identify Social Security Numbers and mask them with *
 ```
-```
-//If 90 percent of the SLA has been consumed, send an alert to the assignment group manager
-```
-```
-//Use glide aggregate to count number of P1 incidents closed between March 3 to April 13 of 2023 assigned to admin
-```
-\*\*In an email script:\*\*
-```
-//Find all open incidents with an inactive assigned to the user and email the manager
-```
-\*\*Then contrast the result with something like a Fix Script:\*\*
-```
-// write a glide record query to find all locked-out users and email their manager
-```
-\*\*For a script include:\*\*
-```
-// create a function with regular expression search of text to find social security numbers and mask them with \*
-```
-  
+
+---
+
+## Tips for Better Results
+
+{% hint style="info" %}
+When working with Now Assist for Creator:
+
+- Be specific about business requirements.
+- Include trigger conditions whenever possible.
+- Specify expected outcomes and actions.
+- Mention ServiceNow tables, fields, and record types when relevant.
+- Break complex requirements into logical steps.
+{% endhint %}
+
+## Completion
+
+These sample prompts are intended to help you explore the capabilities of Now Assist for Creator and accelerate flow and script development.
