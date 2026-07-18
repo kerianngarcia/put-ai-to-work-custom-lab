@@ -1,5 +1,3 @@
-!(https://file%2B.vscode-resource.vscode-cdn.net/Users/keri.garcia/Documents/gitbook-cloner/put-ai-to-work/.gitbook/assets/WePutAIToWotk_LinkedIn_Headers_Indigo.png?version%3D1784414885631)
-
 # Section 1. Start Using Gen AI on Day 1
 
 Now Assist was designed so customers could launch quickly and with minimal lift. Our talented product teams built Now Assist to be turnkey. With the click of a button, you're off to the GenAI races.
