@@ -1,15 +1,19 @@
-# Section 7. Now Assist Skill Kit (Optional)
+# Section 7 - Now Assist Skill Kit (Optional)
 
-## section-7.-now-assist-skill-kit-optional.md
+In this optional section, you will review additional Now Assist Skill Kit capabilities and example use cases.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-7.-now-assist-skill-kit-optional.md).
+## Review Now Assist Skill Kit Features
 
-## Section 7. Now Assist Skill Kit (OPTIONAL)
+1. Go to the community site referenced by your lab instructor and review the Now Assist Skill Kit features.
 
-Go to the following community site and familiarize yourself with the NASK features
+   ![](../.gitbook/assets/section-7/S7-1.png)
 
-![](.gitbook/assets/asset-5a5c7b8ea40ac66b.png)
+## Review the Use Case Library
 
-Visit the following URL to see SEVERAL use cases that work with this lab setup [ServiceNow Community Article: Now Assist Skill Kit Use Case Library](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-use-case-library/ta-p/3053580)
+2. Visit the following ServiceNow Community article to review several use cases that work with this lab setup:
 
-Congratulations, you have completed the lab!
+   [Now Assist Skill Kit Use Case Library](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-use-case-library/ta-p/3053580)
+
+## Completion
+
+Congratulations. You have completed the lab.
