@@ -37,14 +37,14 @@ Following the previous steps to add another script tool, this time name it \*\*a
 Configuration should now look like this:
 
 
-![](../.gitbook/assets/section-8/S8.1-8.png)
+![](../../.gitbook/assets/section-8/S8.1-8.png)
 
 Again, no other configuration is needed select continue until you have added the tool. Your flow should look similar to the image below. The exact order does not matter as both scripts will execute prior to the prompt.
 
 
-![](../.gitbook/assets/section-8/S8.1-9.png)
+![](../../.gitbook/assets/section-8/S8.1-9.png)
 
 To control, check back with your prompt, the \{{inputs\}} should be blue indicating that they are matched with the tools you have added.
 
 
-![](../.gitbook/assets/section-8/S8.1-10.png)
+![](../../.gitbook/assets/section-8/S8.1-10.png)
