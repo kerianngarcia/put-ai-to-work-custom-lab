@@ -38,7 +38,7 @@ Provide the visitor with output directions as a numbered list.
 
 7. Click **Generate**.
 
-  ![](../.gitbook/assets/section-2/S2.1-1.png)
+  ![](../.gitbook/assets/section-2/S2.1-2.png)
 
 {% hint style="info" %}
 **Tip**
