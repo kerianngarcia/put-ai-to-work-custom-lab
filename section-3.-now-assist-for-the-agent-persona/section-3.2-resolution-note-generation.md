@@ -16,9 +16,9 @@ In this exercise, you will use Now Assist to generate resolution notes and resol
 
 4. In the **Resolve** pop-up window, select the following resolution code.
 
-         | Field | Value |
-         |---|---|
-         | Resolution code | Solution provided |
+    | Field | Value |
+    |---|---|
+    | Resolution code | Solution provided |
 
 5. In the resolution notes box, click the **Now Assist** icon to generate resolution notes.
 
