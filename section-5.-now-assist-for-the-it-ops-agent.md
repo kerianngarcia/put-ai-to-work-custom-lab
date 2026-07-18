@@ -1,6 +1,29 @@
-# section-5.-now-assist-for-the-it-ops-agent.md
+# Section 5 - Now Assist for the IT Ops Agent
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-5.-now-assist-for-the-it-ops-agent.md).
-# Section 5. Now Assist for the IT Ops Agent
-- [Section 5.1 Alert Express list](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-5.-now-assist-for-the-it-ops-agent/section-5.1-alert-express-list.md)
-- [Section 5.2 Alert Analyzation](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-5.-now-assist-for-the-it-ops-agent/section-5.2-alert-analyzation.md)
+In this section, you will explore how Now Assist helps an IT operations agent analyze alerts in Service Operations Workspace.
+
+You will review the Express List, expand the alert view, learn how alerts and alert groups are represented, and use Now Assist for ITOM to analyze an alert group.
+
+{% hint style="info" %}
+
+### In this section, you will
+
+☐ Open the Alert Express List.
+
+☐ Review alerts and alert groups.
+
+☐ Expand the alert time window.
+
+☐ Analyze an alert group with Now Assist for ITOM.
+
+{% endhint %}
+
+## Labs
+
+### [Section 5.1 Alert Express List](section-5.1-alert-express-list.md)
+
+Open the Express List and review how alerts and alert groups appear to an operator.
+
+### [Section 5.2 Alert Analysis](section-5.2-alert-analyzation.md)
+
+Use Now Assist for ITOM to analyze an alert group and review the generated explanation.
