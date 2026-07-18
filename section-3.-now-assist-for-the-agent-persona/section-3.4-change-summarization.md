@@ -1,22 +1,31 @@
-# section-3.4-change-summarization.md
+# Section 3.4 - Change Summarization
 
-## section-3.4-change-summarization.md
+In this exercise, you will use Now Assist to summarize a change request.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-3.-now-assist-for-the-agent-persona/section-3.4-change-summarization.md).
+## Open a Change Request
 
-## Section 3.4 Change Summarization
+1. Select **List view**.
 
-1. Select list view, then scroll down to “\*\*Changes”\*\*. Select “\*\*Open\*\*” to get a list of all open Change Records.&#x20;
+2. Scroll down to **Changes**.
 
+3. Select **Open** to display a list of all open change records.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4992184693e14b.png)
-2. From the list of open \*\*Changes\*\*, locate and click on “\*\*CHG0044021\*\*”.&#x20;
+   ![](../.gitbook/assets/section-3/S3.4-1.png)
 
+4. From the list of open **Changes**, locate and select **CHG0044021**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9870cb99b6f758.png)
-3. Select the “\*\*Summarize\*\*’ button on the Overview to see the Summary of the Change Request.&#x20;
+   ![](../.gitbook/assets/section-3/S3.4-2.png)
 
+## Generate the Change Summary
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f833b457ee8ff5.png)
+5. On the **Overview** tab, select **Summarize**.
 
-\*\*Congratulations,\*\* you have generated your first change summarization! Please \*\*don’t close\*\* your browser or the workspace; we’ll continue exploring it in the next section.
+6. Review the generated summary of the change request.
+
+   ![](../.gitbook/assets/section-3/S3.4-3.png)
+
+## Completion
+
+Congratulations. You generated your first change summarization.
+
+Do not close your browser or the workspace. You will continue using them in the next section.
