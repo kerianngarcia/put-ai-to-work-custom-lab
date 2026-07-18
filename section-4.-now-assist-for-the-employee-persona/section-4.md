@@ -1,47 +1,31 @@
-# Section 4.2 Now Assist for the Virtual Agent | World Forums and Summits Learning Labs 2026
+# Section 4 - Now Assist for the Employee Persona
 
-For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). This page is also available as [Markdown](section-4.2-now-assist-for-the-virtual-agent.md).
+In this section, you will explore how Now Assist helps employees find answers and complete requests through Employee Center and Virtual Agent.
 
-Before we test out Now Assist for Virtual Agent, let's pause for a quick history lesson:
+You will use AI Search to answer an employee question, then continue into a Now Assist for Virtual Agent conversation to review assets, request a replacement laptop, and retrieve VPN guidance.
 
-All chatbots – including ServiceNow's Virtual Agent (VA) – require some development. VA provides out-of-the-box conversations to reduce development, but customers must still use developers to modify them to suit their unique needs.
+{% hint style="info" %}
 
-Generative AI changed all that. If a user's request could be answered by a knowledge article or a catalog item (in many cases, up to 70% of incidents/cases fall into this category), then Now Assist in VA would dynamically generate the conversation – NO DEVELOPMENT needed. This is huge, and you're about to see why.
+### In this section, you will
 
-1. In the same enhanced screen, let’s ask a new question
+☐ Impersonate an employee user.
 
-![](../.gitbook/assets/asset-e19e9b7480265d19.png)
+☐ Use Now Assist for AI Search in Employee Center.
 
-Tip: If you can’t see the VA icon, you’re probably not in the Employee Center. Double-check that you’re using the correct URL!
+☐ Review how Now Assist generates an answer from knowledge content.
 
-1. **Copy and paste** the following into the Now Assist window and **hit enter**
+☐ Continue into a Now Assist for Virtual Agent conversation.
 
-> What are my current assets?
+☐ Request a replacement laptop and retrieve VPN guidance.
 
-![](../.gitbook/assets/asset-57ed8d520abb1bcf.png)
+{% endhint %}
 
-1. Now, **copy and paste** the following and **hit enter**:
+## Labs
 
-> I a need a new macbook ASAP, I have a critical meeting in 2 days
+### [Section 4.1 Superpowered Search](section-4.1-superpowered-search.md)
 
-![](../.gitbook/assets/asset-1c42cf3378b9c5bd.png)
+Use Now Assist for AI Search to generate a direct answer from knowledge content.
 
-![](../.gitbook/assets/asset-9ac26fede9aba0d4.png)
+### [Section 4.2 Now Assist for the Virtual Agent](section-4.2-now-assist-for-the-virtual-agent.md)
 
-Note how Now Assist switches tracks and follows the change in conversation. Hover over the Replacement laptop option and c**lick Start Request**, then respond to the questions as needed.
-
-![](../.gitbook/assets/asset-f24800c4b9c69e3e.png)
-
-1. Next, **copy and paste** the following and **hit enter**
-
-> How do I connect to VPN?
-
-![](../.gitbook/assets/asset-129fc14db43b067d.png)
-
-Because the Admin's assets are recorded in ServiceNow, Now Assist knows that Abel has a Mac and provides the appropriate instructions. Also, easily pivoting from question to question.
-
-**Congratulations,** you have tested search, engaged in a multi-turn conversation with Now Assist, and even ordered a replacement laptop. You have completed this section!
-
-[PreviousSection 4.1 Superpowered Search](section-4.md)[NextSection 5. Now Assist for the IT Ops Agent](../section-5.md)
-
-Last updated 5 months ago
+Use Now Assist for Virtual Agent to support a multi-turn employee conversation.
