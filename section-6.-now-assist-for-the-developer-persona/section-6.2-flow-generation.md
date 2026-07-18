@@ -1,89 +1,94 @@
-# section-6.2-flow-generation.md
+# Section 6.2 - Flow Generation
 
-## section-6.2-flow-generation.md
+In this exercise, you will create flows from a text prompt and from an image.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-6.-now-assist-for-the-developer-persona/section-6.2-flow-generation.md).
+## Generate a Flow from Text
 
-## Section 6.2 Flow Generation
+1. Return to the Workflow Studio tab.
 
-Now let's create a flow with based on a prompt along with an image.
+2. Select **New > Flow**.
 
-**Generate Flow from Text**
+   ![](../.gitbook/assets/section-6/S6.2-1.png)
 
-1. You should be back in the Workflow Studio tab. This time, select \*\*New > Flow.\*\*&#x20;
+   ![](../.gitbook/assets/section-6/S6.2-2.png)
 
+3. Copy and paste the following text into **Now Assist Directions**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-40d21cda1c448c.png)
+   ```text
+   Brand new process in place for next week
 
+   Step 1 - Pre-Intake (GCR-Creative)
+   - Review the upcoming GCR roadmap to identify expected creative needs.
+   - Create placeholder projects for resource and skill forecasting.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-be1f3731d18d3b.png)
-2. Copy and past this into the “Now Assist Directions give the flow a name, and hit Generate flow preview.
+   Step 2 - Project Intake (Requestors)
+   - Creative requests submitted via the Parent GCR intake system (Jira).
+   - Each Jira ticket generates a linked Jira Child ticket for GCR Creative's workflow.
 
-```
-Brand new process in place for next week
-Step 1 — Pre-Intake (GCR-Creative)
-Review the upcoming GCR roadmap to identify expected creative needs.
-• Create placeholder projects for resource and skill forecasting.
-Step 2 - Project Intake (Requestors)
-• Creative requests submitted via the Parent GCR intake system (Jira).
-• Each Jira ticket generates a linked Jira Child ticket for GCR Creative's workflow.
-Step 3 - Resource Review (Creative Leads)
-• Weekly review of capacity and assign resources by skill, role, and availability.
-Step 4 — Project Kick-Off (Creative Leads & Team Members)
-• Finalize the creative brief, set milestones, confirm deliverables, and assign ownership.
-Step 5 - Concept & Create (Creative Team Members)
-• Execute tasks in alignment with the agreed timelines and quality standards.
-Step 6 - Review & Delivery (Creative Leads)
-• Review, approve, and deliver assets.
-Step 7 - Reporting & Finance Tracking (Creative Leads, Managers & Finance/Operations)
-• Capture time spent, cost, and resource utilization data.
-Link spend to specific initiatives, reconcile with finance systems, and update stakeholder
-```
+   Step 3 - Resource Review (Creative Leads)
+   - Weekly review of capacity and assign resources by skill, role, and availability.
 
-3. Review the proposed flow. Does it follow the directions laid out by the Now Assist prompt?&#x20;
+   Step 4 - Project Kick-Off (Creative Leads and Team Members)
+   - Finalize the creative brief, set milestones, confirm deliverables, and assign ownership.
 
+   Step 5 - Concept and Create (Creative Team Members)
+   - Execute tasks in alignment with the agreed timelines and quality standards.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d86c0dadc90b22.png)
-4. When you are finished, click \*\*Discard flow.\*\*&#x20;
+   Step 6 - Review and Delivery (Creative Leads)
+   - Review, approve, and deliver assets.
 
+   Step 7 - Reporting and Finance Tracking (Creative Leads, Managers, and Finance/Operations)
+   - Capture time spent, cost, and resource utilization data.
+   - Link spend to specific initiatives, reconcile with finance systems, and update stakeholders.
+   ```
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-d3e0b585d34b8e.png)
+4. Give the flow a name.
 
-**Generate Flow from Image**
+5. Click **Generate flow preview**.
 
-1. First, download this image:&#x20;
+6. Review the proposed flow.
 
+   Does the generated flow follow the directions from the Now Assist prompt?
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-16f43b004b7ae6.png)
-2. You should be back in the Workflow Studio tab. This time, select \*\*New > Flow.\*\*&#x20;
-3. Provide a name of your new flow and upload the image:&#x20;
+   ![](../.gitbook/assets/section-6/S6.2-3.png)
 
+7. When you are finished, click **Discard flow**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-345842ea9fc560.png)
-4. Click \*\*Generate flow preview\*\* and let Now Assist create a flow from the image!
+   ![](../.gitbook/assets/section-6/S6.2-4.png)
+
+## Generate a Flow from an Image
+
+8. Download the image shown below.
+
+   ![](../.gitbook/assets/section-6/S6.2-5.png)
+
+9. Return to the Workflow Studio tab.
+
+10. Select **New > Flow**.
+
+11. Provide a name for the new flow.
+
+12. Upload the image.
+
+    ![](../.gitbook/assets/section-6/S6.2-6.png)
+
+13. Click **Generate flow preview**.
 
 {% hint style="info" %}
-Note: If the generation fails the first time, please attempt it again.
+**Note**
+
+If generation fails the first time, attempt it again.
 {% endhint %}
 
-5\. Review the Flow preview on the right hand side. Did Now Assist pick up the logic required from the image? !\[]\(/files/ElU4fJTdGzzuE5eGY8Kz)
+14. Review the flow preview on the right side.
 
+    Did Now Assist identify the required logic from the image?
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ea0e6bfc78668d.png)
+    ![](../.gitbook/assets/section-6/S6.2-7.png)
 
-5. Feel free to Discard flow, or Save and edit flow to review the AI-generated flow further.
-6. Once complete, \*\*close the Workflow Studio tab.\*\*---
+15. Choose one of the following options:
 
-## Agent Instructions
+- Click **Discard flow**.
+- Click **Save and edit flow** to review the AI-generated flow further.
 
-This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
-
-### Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question. Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
-
-```
-GET https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-6.-now-assist-for-the-developer-persona/section-6.2-flow-generation.md?ask=&goal=
-```
-
-`ask` is the immediate question: it should be specific, self-contained, and written in natural language. `goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal. The response will contain a direct answer to the question and relevant excerpts and sources from the documentation. Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+16. When complete, close the Workflow Studio tab.

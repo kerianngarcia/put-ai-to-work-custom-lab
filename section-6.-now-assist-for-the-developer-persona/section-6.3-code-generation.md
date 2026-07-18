@@ -1,26 +1,51 @@
-# section-6.3-code-generation.md
+# Section 6.3 - Code Generation
 
-## section-6.3-code-generation.md
+In this exercise, you will use Now Assist to generate script logic in a Script Include.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-6.-now-assist-for-the-developer-persona/section-6.3-code-generation.md).
+## Create a Script Include
 
-## Section 6.3 Code generation
+1. Go to **Script Includes**.
 
-1. \*\*Go to All > System Definition > Script Includes.\*\* A script is a reusable server-side script that provides logic to define a function or class.&#x20;
+   Navigate to:
 
+   `All > System Definition > Script Includes`
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9586c5fec20d88.png)
-2. Select \*\*New\*\* in the upper right-hand corner.
-3. Close any popups that appear, then give the Script Include a Name (e.g., \*\*\*\[Your initials] Test Script) and a Description of “My first test script”.\*\*\*
-4. Replace the default code with the following:
+   A script include is a reusable server-side script that provides logic to define a function or class.
 
-```
-//predict assignment group using predictive intelligence classification model
-```
+   ![](../.gitbook/assets/section-6/S6.3-1.png)
 
-5. Now, \*\*hit CMD + Return (Mac) or CTRL + ENTER (Windows)\*\*&#x20;
+2. Select **New** in the upper-right corner.
 
+3. Close any popups that appear.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-2b3e928060f454.png)
+4. Configure the Script Include using the values below.
 
-This feature allows you to use Now Assist to write a custom script based on your instructions. 6. When you are finished, click \*\*Submit\*\* \*\*Congratulations,\*\* you have completed the Now Assist for the Developer persona portion of the lab! \\
+   | Field | Value |
+   |---|---|
+   | Name | [Your initials] Test Script |
+   | Description | My first test script |
+
+5. Replace the default code with the following instruction.
+
+   ```javascript
+   //predict assignment group using predictive intelligence classification model
+   ```
+
+6. Generate code with the keyboard shortcut for your operating system.
+
+   | Operating system | Shortcut |
+   |---|---|
+   | macOS | Cmd + Return |
+   | Windows | Ctrl + Enter |
+
+   ![](../.gitbook/assets/section-6/S6.3-2.png)
+
+7. Review the generated custom script.
+
+   This feature allows you to use Now Assist to write a custom script based on your instructions.
+
+8. When you are finished, click **Submit**.
+
+## Completion
+
+Congratulations. You completed the Now Assist for the Developer persona portion of the lab.
