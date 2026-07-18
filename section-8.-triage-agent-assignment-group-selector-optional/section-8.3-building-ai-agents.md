@@ -1,6 +1,5 @@
-# section-8.3-building-ai-agents.md
+## Section 8.3 Building AI Agents
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents.md).
-# Section 8.3 Building AI Agents
 There are several steps we take in this section of the lab. We first go through how an out-of-the-box agentic workflow in ServiceNow ITSM works and can be used within your organization. Next we will duplicate that OOTB workflow, so we are able to modify it. The main modification is that we want to add an extra AI Agent in the agentic workflow, which predicts the assignment group for the incoming incident.
+
 Let's begin building this!
