@@ -23,13 +23,10 @@ Add resolution steps, along with any relevant similar incidents and knowledge ar
 Format the output message so it is easy to read, with new line characters in a list format. Also provide the reasoning for recommending these steps.
 ```
 
-<p align="center">
-  <img src="../assets/section-2/S2.2-1.png" width="100%">
-</p>
+  ![](../.gitbook/assets/section-2/S2.2-1.png)
 
-<p align="center">
-  <img src="../assets/section-2/S2.2-2.png" width="100%">
-</p>
+  ![](../.gitbook/assets/section-2/S2.2-2.png)
+
 5.  Review the generated values.
 
     Verify that Now Assist populated the following:
@@ -51,9 +48,7 @@ Format the output message so it is easy to read, with new line characters in a l
 If you do not see the recommended tools, click **Add tool** and manually select the exact tools listed in this guide. Ask the instructor for help if needed.
 {% endhint %}
 
-<p align="center">
-  <img src="../assets/section-2/S2.2-3.png" width="100%">
-</p>
+  ![](../.gitbook/assets/section-2/S2.2-3.png)
 
 ### Create the Additional Comments Tool
 
@@ -140,16 +135,12 @@ Help me resolve INC0010248
 
 2. Click **Continue to Test Chat response**.
 
-<p align="center">
-  <img src="../assets/section-2/S2.2-4.png" width="100%">
-</p>
+  ![](../.gitbook/assets/section-2/S2.2-4.png)
 
 ### What to Observe
 
 Several tools are intentionally left as human-supervised actions so you can observe the agentic thought process.
 
-<p align="center">
-  <img src="../assets/section-2/S2.2-5.png" width="100%">
-</p>
+  ![](../.gitbook/assets/section-2/S2.2-5.png)
 
 Next, move this agent and its tools to an Agentic Workflow.

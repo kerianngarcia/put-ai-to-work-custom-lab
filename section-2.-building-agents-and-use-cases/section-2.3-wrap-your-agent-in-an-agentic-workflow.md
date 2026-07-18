@@ -28,9 +28,7 @@ This workflow will be the Incident Solution Agent workflow. This use case provid
 
 9. Find the AI Agent you created previously.
 
-<p align="center">
-  <img src="../assets/section-2/S2.3-1.png" width="100%">
-</p>
+  ![](../.gitbook/assets/section-2/S2.3-1.png)
 
 10. Under **Add AI agent**, click **+**.
 
