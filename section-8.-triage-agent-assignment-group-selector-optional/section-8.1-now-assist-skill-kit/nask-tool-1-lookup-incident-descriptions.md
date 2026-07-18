@@ -33,7 +33,6 @@ return result;
 
 Your configuration should now look like this:<br>
 
-
-![](../.gitbook/assets/section-8/S8.1-7.png)
+![](../../.gitbook/assets/section-8/S8.1-7.png)
 
 No other configuration is needed you can now select continue until the tool is added.
