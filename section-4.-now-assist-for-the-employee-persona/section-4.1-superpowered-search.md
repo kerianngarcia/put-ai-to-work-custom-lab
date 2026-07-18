@@ -1,37 +1,67 @@
-# section-4.1-superpowered-search.md
+# Section 4.1 - Superpowered Search
 
-## section-4.1-superpowered-search.md
+In this exercise, you will impersonate an employee and use Now Assist for AI Search in Employee Center.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-4.-now-assist-for-the-employee-persona/section-4.1-superpowered-search.md).
+## Impersonate the Employee User
 
-## Section 4.1 Superpowered Search
+1. Select the profile picture in the upper-right corner.
 
-1. IMPORTANT: Select the profile picture in the upper right-hand corner and impersonate a user: Abel Tuter. The window will reload.
+2. Impersonate the following user:
 
+   ```text
+   Abel Tuter
+   ```
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-59f939ad33ce8c.png)
+   The window reloads after you impersonate the user.
 
+   ![](../.gitbook/assets/section-4/S4.1-1.png)
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f419b2dd5812bc.png)
+   ![](../.gitbook/assets/section-4/S4.1-2.png)
 
-2\. Next, open the employee center by navigating to A\*\*ll > Self-Service > Employee Center.\*\* Alternatively, in your browser’s address bar, append “\*\*/esc\*\*” to the end of the instance URL. For example:&#x20;
+## Open Employee Center
 
+3. Open Employee Center.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-57deda897875c5.png)
+   Navigate to:
 
-3\. In the search box, type and then hit Enter
+   `All > Self-Service > Employee Center`
 
-> Where can I obtain updates and new releases for Mac OS X
+   Alternatively, append the following to the end of the instance URL in your browser address bar:
 
-Notice how the Search now expands in a full-screen enhanced view, which will Now Assist users with AI Search to pull the top-ranked knowledge article, then sends it to the Now LLM to generate an answer to the original question. This is a huge time-saver, as employees only need to read part of the knowledge article; we use Now LLM to provide a succinct answer.&#x20;
+   ```text
+   /esc
+   ```
 
+   ![](../.gitbook/assets/section-4/S4.1-3.png)
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-4bb63e58cd8c6e.png)
+## Search with Now Assist
 
-Notice that when you click the thumbs-up or thumbs-down buttons, feedback is sent to the Now LLM (if the customer has not opted out of data sharing).
+4. In the search box, enter the following question.
+
+   ```text
+   Where can I obtain updates and new releases for Mac OS X
+   ```
+
+5. Press **Enter**.
+
+6. Review the full-screen enhanced search view.
+
+   Now Assist uses AI Search to retrieve the top-ranked knowledge article, then sends the article content to the Now LLM to generate an answer to the original question. This helps employees get a concise answer without reading the entire knowledge article.
+
+   ![](../.gitbook/assets/section-4/S4.1-4.png)
+
+7. Notice the thumbs-up and thumbs-down buttons.
+
+   If the customer has not opted out of data sharing, this feedback is sent to the Now LLM.
 
 {% hint style="info" %}
-Dive Deeper: ServiceNow uses a Retrieval Augmented Generation (RAG) architecture that puts a semantic search engine before an LLM. If you want to get into the details of the architecture, check out the excellent article by Sean Hughes, ["Under the Hood: Now Assist in AI Search"](https://www.servicenow.com/community/now-assist-articles/under-the-hood-now-assist-in-ai-search/ta-p/2642915).
+**Dive deeper**
+
+ServiceNow uses a retrieval augmented generation architecture that places a semantic search engine before an LLM. To learn more, review [Under the Hood: Now Assist in AI Search](https://www.servicenow.com/community/now-assist-articles/under-the-hood-now-assist-in-ai-search/ta-p/2642915).
 {% endhint %}
 
-\\\*\\\*Congratulations!\\\*\\\* You have finished reviewing Now Assist for Search. Let's move on to the next section. Now pivot in the same enhanced chat view into a Now Assistant Virtual Agent conversation.
+## Completion
+
+Congratulations. You have finished reviewing Now Assist for AI Search.
+
+Next, continue in the same enhanced chat view and pivot into a Now Assist for Virtual Agent conversation.

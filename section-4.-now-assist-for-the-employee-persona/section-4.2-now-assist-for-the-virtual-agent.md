@@ -1,47 +1,70 @@
-# section-4.2-now-assist-for-the-virtual-agent.md
+# Section 4.2 - Now Assist for the Virtual Agent
 
-## section-4.2-now-assist-for-the-virtual-agent.md
+Before testing Now Assist for Virtual Agent, start with the key context: traditional chatbots, including ServiceNow Virtual Agent, require some development. Virtual Agent provides out-of-the-box conversations to reduce development effort, but customers often still need to modify conversations for their unique needs.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-4.-now-assist-for-the-employee-persona/section-4.2-now-assist-for-the-virtual-agent.md).
+Generative AI changes that experience. If a user's request can be answered by a knowledge article or catalog item, Now Assist for Virtual Agent can dynamically generate the conversation without requiring new conversation development.
 
-## Section 4.2 Now Assist for the Virtual Agent
+## Start a Virtual Agent Conversation
 
-Before we test out Now Assist for Virtual Agent, let's pause for a quick history lesson: All chatbots – including ServiceNow's Virtual Agent (VA) – require some development. VA provides out-of-the-box conversations to reduce development, but customers must still use developers to modify them to suit their unique needs. Generative AI changed all that. If a user's request could be answered by a knowledge article or a catalog item (in many cases, up to 70% of incidents/cases fall into this category), then Now Assist in VA would dynamically generate the conversation – NO DEVELOPMENT needed. This is huge, and you're about to see why.
+1. In the same enhanced screen, ask a new question.
 
-1. In the same enhanced screen, let’s ask a new question&#x20;
-
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-e19e9b7480265d.png)
+   ![](../.gitbook/assets/section-4/S4.2-1.png)
 
 {% hint style="info" %}
-Tip: If you can’t see the VA icon, you’re probably not in the Employee Center. Double-check that you’re using the correct URL!
+**Tip**
+
+If you cannot see the Virtual Agent icon, you are probably not in Employee Center. Confirm that you are using the correct URL.
 {% endhint %}
 
-2\. \\\*\\\*Copy and paste\\\*\\\* the following into the Now Assist window and \\\*\\\*hit enter\\\*\\\* > What are my current assets? !\[]\(/files/HYXkBC7Vmk73Dim4cTVa)
+2. Copy and paste the following question into the Now Assist window.
 
+   ```text
+   What are my current assets?
+   ```
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-57ed8d520abb1b.png)
+3. Press **Enter**.
 
-3. Now, \*\*copy and paste\*\* the following and \*\*hit enter\*\*:
+   ![](../.gitbook/assets/section-4/S4.2-2.png)
 
-> I a need a new macbook ASAP, I have a critical meeting in 2 days&#x20;
+## Request a Replacement Laptop
 
+4. Copy and paste the following request.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-1c42cf3378b9c5.png)
+   ```text
+   I need a new macbook ASAP, I have a critical meeting in 2 days
+   ```
 
+5. Press **Enter**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9ac26fede9aba0.png)
+   ![](../.gitbook/assets/section-4/S4.2-3.png)
 
-Note how Now Assist switches tracks and follows the change in conversation. Hover over the Replacement laptop option and c\*\*lick Start Request\*\*, then respond to the questions as needed.&#x20;
+   ![](../.gitbook/assets/section-4/S4.2-4.png)
 
+6. Notice how Now Assist switches tracks and follows the change in conversation.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f24800c4b9c69e.png)
+7. Hover over the **Replacement laptop** option and click **Start Request**.
 
-4. Next, \*\*copy and paste\*\* the following and \*\*hit enter\*\*
+8. Respond to the questions as needed.
 
-> How do I connect to VPN?&#x20;
+   ![](../.gitbook/assets/section-4/S4.2-5.png)
 
+## Ask a VPN Question
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-129fc14db43b06.png)
+9. Copy and paste the following question.
 
-Because the Admin's assets are recorded in ServiceNow, Now Assist knows that Abel has a Mac and provides the appropriate instructions. Also, easily pivoting from question to question. \*\*Congratulations,\*\* you have tested search, engaged in a multi-turn conversation with Now Assist, and even ordered a replacement laptop. You have completed this section!
+   ```text
+   How do I connect to VPN?
+   ```
+
+10. Press **Enter**.
+
+    ![](../.gitbook/assets/section-4/S4.2-6.png)
+
+11. Review the generated response.
+
+    Because the admin user's assets are recorded in ServiceNow, Now Assist knows that Abel has a Mac and provides the appropriate instructions.
+
+## Completion
+
+Congratulations. You tested search, engaged in a multi-turn conversation with Now Assist, and ordered a replacement laptop.
+

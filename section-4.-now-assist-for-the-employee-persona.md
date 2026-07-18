@@ -1,6 +1,31 @@
-# section-4.-now-assist-for-the-employee-persona.md
+# Section 4 - Now Assist for the Employee Persona
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-4.-now-assist-for-the-employee-persona.md).
-# Section 4. Now Assist for the Employee Persona
-- [Section 4.1 Superpowered Search](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-4.-now-assist-for-the-employee-persona/section-4.1-superpowered-search.md)
-- [Section 4.2 Now Assist for the Virtual Agent](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-4.-now-assist-for-the-employee-persona/section-4.2-now-assist-for-the-virtual-agent.md)
+In this section, you will explore how Now Assist helps employees find answers and complete requests through Employee Center and Virtual Agent.
+
+You will use AI Search to answer an employee question, then continue into a Now Assist for Virtual Agent conversation to review assets, request a replacement laptop, and retrieve VPN guidance.
+
+{% hint style="info" %}
+
+### In this section, you will
+
+☐ Impersonate an employee user.
+
+☐ Use Now Assist for AI Search in Employee Center.
+
+☐ Review how Now Assist generates an answer from knowledge content.
+
+☐ Continue into a Now Assist for Virtual Agent conversation.
+
+☐ Request a replacement laptop and retrieve VPN guidance.
+
+{% endhint %}
+
+## Labs
+
+### [Section 4.1 Superpowered Search](section-4.1-superpowered-search.md)
+
+Use Now Assist for AI Search to generate a direct answer from knowledge content.
+
+### [Section 4.2 Now Assist for the Virtual Agent](section-4.2-now-assist-for-the-virtual-agent.md)
+
+Use Now Assist for Virtual Agent to support a multi-turn employee conversation.
