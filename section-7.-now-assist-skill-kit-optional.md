@@ -6,7 +6,7 @@ In this optional section, you will review additional Now Assist Skill Kit capabi
 
 1. Go to the community site referenced by your lab instructor and review the Now Assist Skill Kit features.
 
-   ![](../.gitbook/assets/section-7/S7-1.png)
+   ![](./.gitbook/assets/section-7/S7-1.png)
 
 ## Review the Use Case Library
 
