@@ -1,27 +1,33 @@
-# Section 6.3 Code generation | World Forums and Summits Learning Labs 2026
+# Section 6 - Now Assist for the Developer Persona
 
-For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). This page is also available as [Markdown](section-6.3-code-generation.md).
+In this section, you will explore how Now Assist supports builders and developers in Workflow Studio and Script Includes.
 
-1. **Go to All > System Definition > Script Includes.** A script is a reusable server-side script that provides logic to define a function or class.
+You will generate a playbook, generate a flow from text and an image, and use Now Assist to help create script logic.
 
-![](../.gitbook/assets/asset-9586c5fec20d88e3.png)
+{% hint style="info" %}
 
-1. Select **New** in the upper right-hand corner.
+### In this section, you will
 
-1. Close any popups that appear, then give the Script Include a Name (e.g., ***[Your initials] Test Script) and a Description of “My first test script”.***
+☐ Generate a playbook from process details.
 
-1. Replace the default code with the following:
+☐ Generate a flow from a text prompt.
 
-1. Now, **hit CMD + Return (Mac) or CTRL + ENTER (Windows)**
+☐ Generate a flow from an image.
 
-![](../.gitbook/assets/asset-2b3e928060f454da.png)
+☐ Use Now Assist to generate script logic.
 
-This feature allows you to use Now Assist to write a custom script based on your instructions.
+{% endhint %}
 
-6. When you are finished, click **Submit**
+## Labs
 
-**Congratulations,** you have completed the Now Assist for the Developer persona portion of the lab!
+### [Section 6.1 Playbook Generation](section-6.1-playbook-generation.md)
 
-[PreviousSection 6.2 Flow Generation](section-6.md)[NextSection 7. Now Assist Skill Kit (OPTIONAL)](../section-7.md)
+Use Now Assist for Creator to generate a playbook preview from process details.
 
-Last updated 5 months ago
+### [Section 6.2 Flow Generation](section-6.2-flow-generation.md)
+
+Generate a flow from a text prompt and from an uploaded image.
+
+### [Section 6.3 Code Generation](section-6.3-code-generation.md)
+
+Use Now Assist to generate server-side script logic in a Script Include.
