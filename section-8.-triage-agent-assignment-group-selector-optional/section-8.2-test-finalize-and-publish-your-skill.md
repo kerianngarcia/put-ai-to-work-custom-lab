@@ -1,32 +1,75 @@
-# section-8.2-test-finalize-and-publish-your-skill.md
+# Section 8.2 - Test, Finalize, and Publish Your Skill
 
-## section-8.2-test-finalize-and-publish-your-skill.md
+Before using the skill in an AI Agent, validate the output and publish the skill so it becomes available within the platform.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.2-test-finalize-and-publish-your-skill.md).
+## Test the Skill
 
-## Section 8.2 Test, finalize and publish your skill
+1. In the Prompt Editor, scroll down and click **Run Test**.
 
-Before we can use the skill in an AI agent we should test the functionality and then publish the skill. 1. Start by running a test on your new skill. In the prompt editor scroll down and click Run test. Then add an incident number, for example INC0099969 (this one is about issues with a printer) before hitting Run test again.
+2. Enter an incident number to test the skill.
 
+   Example:
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-9bef6a503caa98.png)
+   ```text
+   INC0099969
+   ```
 
-2\. You should then see an output below, for example:\
-{"name":"Hardware","sys\\\_id":"8a5055c9c61122780043563ef53438e3","confidence":"95%"}\
-in this example you can see that the skill has selected the hardware assignment group with a high confidence. You can try changing the content of the incident to see changes in behaviour. 3. Let’s finalize the prompt, publish it and then activate in through skill kit admin. First select the lock icon to finalize the prompt\
+   This sample incident contains a printer-related issue.
 
+3. Click **Run Test** again.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ece0f3f52d2e82.png)
-then Publish skill from top right in the editor where you can select your skill in the dialogue box:
+   ![](../.gitbook/assets/section-8/S8.2-1.png)
 
-If you gave a different name to your prompt it might look slightly different however there should only be one option for you to choose. 4. Once your prompt is published navigate in the filter navigator to Now Assist Admin -> Skills.
+4. Review the generated output.
 
+   Example:
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ce59406ed2cf1a.png)
+   ```json
+   {
+     "name": "Hardware",
+     "sys_id": "8a5055c9c61122780043563ef53438e3",
+     "confidence": "95%"
+   }
+   ```
 
-From here you should have the list of all skills in your instance, if you have not made any other changes you will find your skill under the section other go ahead and activate your skill.
+5. Verify that the predicted assignment group is appropriate for the incident.
 
+   In this example, the skill selected the **Hardware** assignment group with a high confidence score.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-6e9ddddbc49d85.png)
+6. Optionally test additional incidents to observe how the prediction changes based on incident content.
 
-Congratulations, your skill is now published and available for use in agents!
+## Finalize the Prompt
+
+7. Select the **Lock** icon to finalize the prompt.
+
+   ![](../.gitbook/assets/section-8/S8.2-2.png)
+
+## Publish the Skill
+
+8. In the upper-right corner of the editor, click **Publish Skill**.
+
+9. Select your skill from the dialog box and complete the publication process.
+
+{% hint style="info" %}
+If you used a different skill name than the examples in this guide, the dialog may look slightly different. However, there should only be one newly created skill available for selection.
+{% endhint %}
+
+## Activate the Skill
+
+10. Navigate to:
+
+    `Now Assist Admin > Skills`
+
+    ![](../.gitbook/assets/section-8/S8.2-3.png)
+
+11. Locate your skill in the skills list.
+
+12. If no additional skills have been created, the skill will typically appear in the **Other** section.
+
+13. Activate the skill.
+
+    ![](../.gitbook/assets/section-8/S8.2-4.png)
+
+## Completion
+
+Congratulations. Your skill has been published and is now available for use in AI Agents.
