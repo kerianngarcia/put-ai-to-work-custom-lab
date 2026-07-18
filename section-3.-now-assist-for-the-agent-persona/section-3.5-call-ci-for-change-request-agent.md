@@ -10,13 +10,13 @@ In this exercise, you will use an AI Agent to suggest configuration items that m
 
 2. Review the available skills and agents this user has permission to use.
 
-   ![](../.gitbook/assets/section-3/S3.5-1.png)
+   ![](../.gitbook/assets/section-3/S3.5-2.png)
 
 ## Run the CI Recommendation Agent
 
 3. Click the **Suggest Configuration Items for a change request** card.
 
-   ![](../.gitbook/assets/section-3/S3.5-1.png)
+   ![](../.gitbook/assets/section-3/S3.5-3.png)
 
 4. Review the suggested configuration items.
 
