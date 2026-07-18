@@ -1,41 +1,101 @@
-# Triage and Categorize ITSM Incidents | World Forums and Summits Learning Labs 2026
+# Triage and Categorize ITSM Incidents
 
-## triage-and-categorize-itsm-incidents.md
+In this exercise, you will review the out-of-the-box (OOTB) **Triage and Categorize ITSM Incidents** Agentic Workflow, learn how it is constructed, and test its behavior before creating your own modified version.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents/triage-and-categorize-itsm-incidents.md).
+![](../../.gitbook/assets/section-8/S8.3.1-2.png)
 
-## Triage and Categorize ITSM Incidents
+## Open the Agentic Workflow
 
+1. Open **AI Agent Studio**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-83e03ac9f14e97.png)
+   Navigate to:
 
-We are going to check how the out-of-the-box (OOTB) Agentic Workflow “Triage and categorize ITSM incidents” is built, how we can test it and also how we can modify the OOTB experience. 1. Open AI Agent Studio (All > AI Agent Studio > Overview). You will be taken to the AI Agent Studio Home page, which is your one-stop-shop for building, maintaining and testing AI Agents.\
+   `All > AI Agent Studio > Overview`
 
+2. Review the AI Agent Studio home page.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-db710041f70c1d.png)
-2\. Locate the tab “Create and manage” and click this.\
-3\. Make sure that you have the tab “Agentic Workflows” selected.
+   AI Agent Studio is the central workspace for building, maintaining, testing, and managing AI Agents and Agentic Workflows.
 
-4\. Locate the “Triage and categorize ITSM incidents” workflow and open this. You will notice this is an OOTB workflow, as it is marked to be read-only.  5. Check how the agentic workflow is constructed:\
-a. It has name, description and a list of steps;\
+   ![](../../.gitbook/assets/section-8/S8.3.1-1.png)
 
+3. Select the **Create and Manage** tab.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c748c8485c7e8b.png)
-b. There are three AI Agents underneath this workflow.\
-c. Feel free to open up one of the AI Agents, and check how they have been setup. Also these single AI Agents will be marked read-only, indicating they are OOTB AI Agents provided by the ITSM content pack for AI Agents.&#x20;
+4. Verify that the **Agentic Workflows** tab is selected.
 
-6\. Click “Continue”, to go to the next section of the Agentic Workflow setup\
+## Review the OOTB Workflow
 
+5. Locate and open the following Agentic Workflow:
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c7ee71670a4b1a.png)
-7\. You will be taken through the security controls, triggers and channels and status. We won’t change anything here, and continue all the way to the end of the settings:
+   ```text
+   Triage and Categorize ITSM Incidents
+   ```
 
-8\. Now we click “Save and Test” which will take us to the testing console. Enter an incident number and click “Continue to Test Chat Response”:&#x20;
+6. Notice that the workflow is marked **Read Only**.
 
+   This indicates that the workflow was delivered out of the box as part of the ITSM AI Agents content pack.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-f0a8236461a7cd.png)
+7. Review the workflow definition.
 
-9\. The agentic workflow is kicked off, and you will see the AI Agents being fired of by the agentic workflow:
+   ![](../../.gitbook/assets/section-8/S8.3.1-3.png)
 
+8. Observe the key components of the workflow:
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-02f2d5a2af7ba8.png)
+   - Workflow name
+   - Workflow description
+   - List of workflow steps
+   - Associated AI Agents
+
+9. Review the AI Agents included in the workflow.
+
+10. Optionally open one of the AI Agents and examine its configuration.
+
+    These AI Agents are also read-only because they were delivered as OOTB content.
+
+## Review Workflow Configuration
+
+11. Click **Continue** to move to the next section of the workflow configuration.
+
+    ![](../../.gitbook/assets/section-8/S8.3.1-4.png)
+
+12. Review the remaining workflow sections:
+
+    - Security controls
+    - Triggers
+    - Channels and status
+
+13. Do not make any changes.
+
+14. Continue through the workflow configuration until you reach the end.
+
+## Test the Workflow
+
+15. Click **Save and Test**.
+
+16. Enter an incident number.
+
+17. Click **Continue to Test Chat Response**.
+
+    ![](../../.gitbook/assets/section-8/S8.3.1-5.png)
+
+18. Review the workflow execution.
+
+19. Observe how the Agentic Workflow orchestrates multiple AI Agents.
+
+    ![](../../.gitbook/assets/section-8/S8.3.1-6.png)
+
+20. Notice that multiple AI Agents are executed as part of a single workflow experience.
+
+## What to Observe
+
+| Area | Observation |
+|---|---|
+| Workflow orchestration | Multiple AI Agents can be executed by a single Agentic Workflow. |
+| Read-only configuration | OOTB workflows and agents are protected from direct modification. |
+| Testing experience | Agentic Workflows can be validated directly within the testing console. |
+| AI Agent collaboration | Each AI Agent performs a specific task within the larger workflow. |
+
+## Completion
+
+Congratulations. You reviewed and tested the out-of-the-box **Triage and Categorize ITSM Incidents** Agentic Workflow.
+
+In the next exercise, you will duplicate the workflow so that you can modify and extend its behavior.

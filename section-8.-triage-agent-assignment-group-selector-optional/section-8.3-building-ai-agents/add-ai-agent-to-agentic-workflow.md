@@ -1,175 +1,238 @@
-# Add AI Agent to Agentic Workflow | World Forums and Summits Learning Labs 2026
+# Add AI Agent to Agentic Workflow
 
-## add-ai-agent-to-agentic-workflow.md
+In this exercise, you will create a custom AI Agent that uses the assignment group prediction skill, updates the incident record, and documents its actions in the incident work notes.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-8.-triage-agent-assignment-group-selector-optional/section-8.3-building-ai-agents/add-ai-agent-to-agentic-workflow.md).
+## Create the AI Agent
 
-## Add AI Agent to Agentic Workflow
+1. Return to the **Define Key Requirements** section of the Agentic Workflow.
 
-1\. Go back to “Define key requirements” section of the Agentic Workflow:
+   ![](../../.gitbook/assets/section-8/S8.3.3-1.png)
 
+2. Under **Add AI Agents**, click **Create New AI Agent**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-2895e921444264.png)
+   ![](../../.gitbook/assets/section-8/S8.3.3-2.png)
 
-2\. We want to add a new AI Agent into the set of AI Agents this workflow has access to. Click “\*\*Create new AI agent\*\*” under “\*\*Add AI agents\*\*”:&#x20;
+3. Configure the AI Agent using the following values.
 
+   | Field | Value |
+   |---|---|
+   | AI Agent Name | Determine Assignment Group AI Agent |
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-55763a7b7c89ce.png)
+### AI Agent Description
 
-3\. Fill in the following:\
-a. \*\*AI agent name\*\*: Determine Assignment Group AI Agent\
-b. \*\*AI agent Description:\*\*
-
-{% code overflow="wrap" %}
-```
+```text
 This agent streamlines incident management by intelligently assigning incidents to the most appropriate support group. It fetches incident data, predicts the best assignment group using an AI skill, and ensures accuracy by requesting user confirmation for low-confidence predictions.
 ```
-{% endcode %}
 
-c. \*\*AI agent role:\*\*
+### AI Agent Role
 
-{% code overflow="wrap" %}
-```
+```text
 You specialize in automatically determining and setting the correct assignment group for newly created incidents. You retrieve incident details, utilize a predictive skill to suggest an assignment group with a confidence score, and seek user confirmation if the confidence score is below a predefined threshold before applying the assignment.
 ```
-{% endcode %}
 
-d. \*\*List of steps\*\*:
+### List of Steps
 
-{% code overflow="wrap" %}
-```
+```text
 1. Use the provided incident number in calling tools in this AI Agent.
 2. Predict the Assignment Group for the incident number.
 3. Evaluate the confidence score returned by the assignment group selector.
 4. If the confidence score is less than 80%, ask the user for confirmation to set the predicted assignment group.
-5. If the confidence score is 80% or higher, or if the user confirms, assign the incident to the predicted assignment group using the 'Assign incident to found assignment group' tool.
+5. If the confidence score is 80% or higher, or if the user confirms, assign the incident to the predicted assignment group using the "Assign incident to found assignment group" tool.
 6. Write a summary of the steps executed in this AI Agent and save it to the work notes of the incident.
 ```
-{% endcode %}
 
-4\. Press “\*\*Save and continue\*\*”\
+4. Click **Save and Continue**.
 
+   ![](../../.gitbook/assets/section-8/S8.3.3-3.png)
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-387c5a8beacb41.png)
-5\. When potential duplicates are found, ignore and continue:&#x20;
+5. If potential duplicates are found, select **Ignore and Continue**.
 
-6\. In the tools and information section, we are going to add a new tool which will call our earlier created NASK skill. Click “\*\*Add tool\*\*” -> “\*\*Now Assist skill\*\*”
+## Add the Assignment Group Prediction Skill
 
+6. In the **Tools and Information** section, click:
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ce1d8171cdbf41.png)
+   **Add Tool → Now Assist Skill**
 
-7\. Select your NASK skill in the pop-up window:&#x20;
+   ![](../../.gitbook/assets/section-8/S8.3.3-4.png)
 
+7. Select the NASK skill created earlier.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-c16b8091a68f12.png)
-
-{% hint style="info" %}
-If you can’t find your skill, it is not published in Now Assist skill kit and/or not turned on in the Now Assist Admin Console.\*If you can’t find your skill, it is not published in Now Assist skill kit and/or not turned on in the Now Assist Admin Console.\*
-{% endhint %}
-
-8\. Enter the following attributes:\
-
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-014bf9f9e2d463.png)
-a. \*\*Name\*\*: Assignment group selector\
-b. \*\*Tool description\*\*: This tool will predict the right assignment group for the incoming incident\
-c. \*\*Execution mode\*\*: Autonomous\
-d. \*\*Display output\*\*: No\
-Click Add to save the tool to your AI Agent. \\\
-We need a few more tools, so we can also update the incident with the determined assignment group and we want to be able to write to the work notes of the incident. \\\
-9\. Click “\*\*Add tool\*\*” -> “\*\*Record operation\*\*”
-
-10\. Fill in the following attributes for the tool\
-a. Name: Update Incident\
-b. Tool description : Update incident\
-c. Input parameters:
-
-|                     |                                     |
-| ------------------- | ----------------------------------- |
-| _**Input name**_    | _**Description**_                   |
-| _incident\_number_  | _The incident number_               |
-| _assignment\_group_ | _The sysid of the assignment group_ |
-
-d. \*\*Table\*\*: Incident\
-e. \*\*Select operatio\*\*n: Update records\
-f. \*\*Conditions\*\*: i. Field: Active Operator: is True/False: true\
-ii. Click ‘and’ to add an additional condition\
-
-
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-474fb930f66b29.png)
-iii. Field: Number is \{{incident\\\_number\}} \\<br>
+   ![](../../.gitbook/assets/section-8/S8.3.3-5.png)
 
 {% hint style="info" %}
-You can use the inputs picker to reference variables like the incident number.
+If you cannot find your skill, verify that it has been published in Now Assist Skill Kit and activated in the Now Assist Admin Console.
 {% endhint %}
 
-g. \*\*Field values\*\*:
+8. Configure the tool using the following values.
 
-|                    |                           |
-| ------------------ | ------------------------- |
-| _**Field**_        | _**Value**_               |
-| _Assignment group_ | _\{{assignment\_group\}}_ |
+   ![](../../.gitbook/assets/section-8/S8.3.3-6.png)
 
-h. \*\*Execution mode\*\*: Autonomous\
-i. \*\*Display\*\* output: No 11. Click “Add” to save the tool to the AI Agent. 12. Add another tool to the AI Agent, this time it will be a script to update the worknotes. Click “\*\*Add tool\*\*” -> “\*\*Script\*\*”
+   | Field | Value |
+   |---|---|
+   | Name | Assignment Group Selector |
+   | Tool Description | This tool will predict the right assignment group for the incoming incident |
+   | Execution Mode | Autonomous |
+   | Display Output | No |
 
+9. Click **Add**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-b66c42f08b4e30.png)
+## Add the Incident Update Tool
 
-13\. Fill in the following attributes for the tool\
-a. \*\*Name\*\*: Update incident worknotes\
-b. \*\*Tool\*\* \*\*description\*\*: This tool updates the incident worknotes\
-c. \*\*Input parameters\*\*:
+10. Add another tool.
 
-|                    |                                             |
-| ------------------ | ------------------------------------------- |
-| _**Input name**_   | _**Description**_                           |
-| _incident\_number_ | _The incident number_                       |
-| _worknotes_        | _The worknotes to be added to the incident_ |
+    **Add Tool → Record Operation**
 
-d. \*\*Script\*\*:
+11. Configure the tool using the following values.
 
-{% code overflow="wrap" %}
+   | Field | Value |
+   |---|---|
+   | Name | Update Incident |
+   | Tool Description | Update incident |
+   | Table | Incident |
+   | Operation | Update Records |
+   | Execution Mode | Autonomous |
+   | Display Output | No |
+
+### Input Parameters
+
+   | Input Name | Description |
+   |---|---|
+   | incident_number | The incident number |
+   | assignment_group | The sys_id of the assignment group |
+
+### Conditions
+
+12. Add the following condition:
+
+| Field | Operator | Value |
+|---|---|---|
+| Active | Is | True |
+
+13. Click **And** to add a second condition.
+
+   ![](../../.gitbook/assets/section-8/S8.3.3-7.png)
+
+14. Configure the second condition.
+
+| Field | Operator | Value |
+|---|---|---|
+| Number | Is | {{incident_number}} |
+
+{% hint style="info" %}
+Use the input picker to reference variables such as the incident number.
+{% endhint %}
+
+### Field Values
+
+| Field | Value |
+|---|---|
+| Assignment Group | {{assignment_group}} |
+
+15. Click **Add**.
+
+## Add the Work Notes Tool
+
+16. Add another tool.
+
+    **Add Tool → Script**
+
+   ![](../../.gitbook/assets/section-8/S8.3.3-8.png)
+
+17. Configure the tool using the following values.
+
+| Field | Value |
+|---|---|
+| Name | Update Incident Worknotes |
+| Tool Description | This tool updates the incident worknotes |
+| Execution Mode | Autonomous |
+| Display Output | No |
+
+### Input Parameters
+
+| Input Name | Description |
+|---|---|
+| incident_number | The incident number |
+| worknotes | The work notes to be added to the incident |
+
+### Script
+
 ```javascript
 (function(inputs) {
-var incidentNumber = inputs.incident\_number;
-var worknotes = inputs.worknotes;
-var gr = new GlideRecord('incident');
-gr.addQuery('number', incidentNumber);
-gr.query();
-if (gr.next()) {
-gr.work\_notes = worknotes;
-gr.update();
-return {
-status: 'success',
-incident\_number: incidentNumber,
-incident\_sys\_id: gr.getUniqueValue(),
-message: 'Work notes updated successfully on incident ' + incidentNumber
-};
-} else {
-return {
-status: 'error',
-incident\_number: incidentNumber,
-message: 'No incident found with number ' + incidentNumber
-};
-}
+    var incidentNumber = inputs.incident_number;
+    var worknotes = inputs.worknotes;
+
+    var gr = new GlideRecord('incident');
+    gr.addQuery('number', incidentNumber);
+    gr.query();
+
+    if (gr.next()) {
+        gr.work_notes = worknotes;
+        gr.update();
+
+        return {
+            status: 'success',
+            incident_number: incidentNumber,
+            incident_sys_id: gr.getUniqueValue(),
+            message: 'Work notes updated successfully on incident ' + incidentNumber
+        };
+    } else {
+        return {
+            status: 'error',
+            incident_number: incidentNumber,
+            message: 'No incident found with number ' + incidentNumber
+        };
+    }
 })(inputs);
 ```
-{% endcode %}
 
-e. \\\*\\\*Execution mode\\\*\\\*: Autonomous \ f. \\\*\\\*Display output\\\*\\\*: No 14\\. Click “\\\*\\\*Save and continue\\\*\\\*” to go to the next section to define security controls for this AI Agent: \ a. \\\*\\\*Define user access\\\*\\\*: Any authenticated user, Save and continue \ b. \\\*\\\*User identity type\\\*\\\*: AI user \ c. \\\*\\\*AI user\\\*\\\*: itsm.aia.worker1. !\[]\(/files/AOaiKtV3IDVS7YdgJbvz)
+18. Click **Save and Continue**.
 
+## Configure Security
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-8ad6cd9d89a4dc.png)
+19. Configure user access.
 
-d. Click “\*\*Save and continue\*\*” 15. We don’t need to add any triggers, so click again “\*\*Save and continue\*\*”\
+| Setting | Value |
+|---|---|
+| User Access | Any Authenticated User |
 
+20. Click **Save and Continue**.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-15b27efa2a6c6b.png)
-16\. In the Select channels and status, switch on the “\*\*Engage via the Now Assist Panel\*\*” and make sure the AI Agent is toggled to \*\*Active\*\*.&#x20;
+21. Configure data access.
 
-17\. Save and add the AI agent to the Agentic Workflow.\
+| Setting | Value |
+|---|---|
+| User Identity Type | AI User |
+| AI User | itsm.aia.worker1 |
 
+    ![](../../.gitbook/assets/section-8/S8.3.3-9.png)
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-ffee20ae7e7a73.png)
-18\. The final result should be that you have an extra AI Agent in your Agentic Workflow:&#x20;
+22. Click **Save and Continue**.
+
+## Configure Availability
+
+23. No triggers are required.
+
+24. Click **Save and Continue**.
+
+   ![](../../.gitbook/assets/section-8/S8.3.3-10.png)
+
+25. In **Select Channels and Status**, configure the following settings:
+
+   | Setting | Value |
+   |---|---|
+   | Engage via the Now Assist Panel | On |
+   | AI Agent Status | Active |
+
+26. Save the AI Agent and add it to the Agentic Workflow.
+
+   ![](../../.gitbook/assets/section-8/S8.3.3-11.png)
+
+## Verify the Workflow
+
+27. Confirm that the Agentic Workflow now contains an additional AI Agent for assignment group prediction.
+
+## Completion
+
+Congratulations. You successfully added a custom AI Agent to the Agentic Workflow.
+
+The workflow can now determine assignment groups, update incidents automatically, and document the result in work notes.
