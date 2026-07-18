@@ -1,29 +1,49 @@
-# section-3.2-resolution-note-generation.md
+# Section 3.2 - Resolution Note Generation
 
-## section-3.2-resolution-note-generation.md
+In this exercise, you will use Now Assist to generate resolution notes and resolve the incident from Section 3.1.
 
-> For the complete documentation index, see [llms.txt](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://servicenow-events-or-lab-guidebo.gitbook.io/world-forums-learning-labs-2026/world-forums-and-summits-learning-labs/put-ai-to-work-shop-for-service-operations/section-3.-now-assist-for-the-agent-persona/section-3.2-resolution-note-generation.md).
+## Generate Resolution Notes
 
-## Section 3.2 Resolution Note Generation
+1. In Service Operations Workspace, return to the incident from Section 3.1 with the short description that begins with **Versioning**.
 
-1. Within Service Operations Workspace, \*\*return\*\* to the incident from Section 3.1 with the short description, "Versioning…"
-2. In the upper-right corner of the incident, locate the \*\*Resolve button\*\* on the right side. Click it to generate resolution notes.&#x20;
+2. In the upper-right corner of the incident, locate **Resolve**.
 
+3. Click **Resolve** to open the resolution experience.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-52360203b950c0.png)
+   ![](../.gitbook/assets/section-3/S3.2-1.png)
 
-Now Assist reviews the work notes for the current ticket and generates a potential resolution. 3. In the Resolve pop-up window, \*\*select a resolution code\*\* from the drop-down: \*\*Solution provided\*\*. 4. From the resolution notes box, click on the Now Assist icon to generate the resolution notes:  3. Click “\*\*Resolve\*\*” to save it to the ticket.&#x20;
+   Now Assist reviews the work notes for the current ticket and generates a potential resolution.
 
+4. In the **Resolve** pop-up window, select the following resolution code.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-5f069b72d48fbe.png)
+         | Field | Value |
+         |---|---|
+         | Resolution code | Solution provided |
 
+5. In the resolution notes box, click the **Now Assist** icon to generate resolution notes.
 
-![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-a834cca4e19d39.png)
+6. Click **Resolve** to save the resolution to the ticket.
 
-5. \*\*Select the details tab\*\* of the Incident. Notice that the resolution was copied to the Resolution notes field, and the state of the ticket went from New to Resolved.
+   ![](../.gitbook/assets/section-3/S3.2-2.png)
+
+   ![](../.gitbook/assets/section-3/S3.2-3.png)
+
+## Review the Resolved Incident
+
+7. Select the **Details** tab of the incident.
+
+8. Confirm that the generated resolution was copied to the **Resolution notes** field.
+
+9. Confirm that the incident state changed from **New** to **Resolved**.
 
 {% hint style="info" %}
-Bonus: Return to the Incident list and try to resolve ANY in-progress incident. Can you find another way to generate resolution notes? (Hint: look for the sparkles.)
+**Bonus**
+
+Return to the incident list and try to resolve any in-progress incident. Can you find another way to generate resolution notes? Hint: look for the sparkles.
 {% endhint %}
 
-Congratulations, you have generated resolution notes and resolved an incident! Please \\\*\\\*don't close\\\*\\\* your browser or incident tab; we will use it in the next section.
+## Completion
+
+Congratulations. You generated resolution notes and resolved an incident.
+
+Do not close your browser or incident tab. You will use them in the next section.
