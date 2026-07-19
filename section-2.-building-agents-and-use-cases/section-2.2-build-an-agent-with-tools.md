@@ -59,7 +59,7 @@ If you do not see the recommended tools, click **Add tool** and manually select 
 | -------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Tool type      | Flow Action                                                                                                         |
 | Flow action    | Add Worknote                                                                                                        |
-| Name           | Update additional comments in incident record                                                                       |
+| Name           | 'Update additional comments in incident record'                                                                       |
 | Description    | Update the additional comments field in the incident record belonging to the incident that triggered this AI agent. |
 | Execution mode | Autonomous                                                                                                          |
 | Display output | Yes                                                                                                                 |
