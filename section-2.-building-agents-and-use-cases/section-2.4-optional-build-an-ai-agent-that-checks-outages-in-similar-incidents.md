@@ -415,7 +415,7 @@ Now open AI Agent Studio and build another AI Agent by duplicating **Incident So
 
 19. Click **Save and Continue**.
 
-20. On **Define Availability**, set **Status** to **On**.
+20. On **Define Availability** (or Activation status), set **Status** to **On**.
 
 21. Click **Save and Test**.
 
