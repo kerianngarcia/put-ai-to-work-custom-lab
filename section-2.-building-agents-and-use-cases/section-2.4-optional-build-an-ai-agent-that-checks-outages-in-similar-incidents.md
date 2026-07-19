@@ -161,7 +161,7 @@ Do not open **Get Similar Incident Records**.
 
 ## Configure Output Variables
 
-19. In the **Output Variables** window, delete both existing variables.
+19. In the **Output Variables** window, create the output variables listed below and delete any remaining variables.
 
 ![](../.gitbook/assets/section-2/S2.4-8.png)"
 
