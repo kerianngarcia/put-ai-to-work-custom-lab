@@ -62,7 +62,7 @@ In a non-lab environment and with MCP, you could expose agents to third parties,
 
 ## Configure Security
 
-10. In **Define security controls**, click **Save and continue**.
+10. In **Define security controls**
 
 11. Configure user access.
 
