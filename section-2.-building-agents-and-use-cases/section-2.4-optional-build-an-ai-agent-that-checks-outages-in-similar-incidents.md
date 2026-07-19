@@ -163,7 +163,7 @@ Do not open **Get Similar Incident Records**.
 
 19. In the **Output Variables** window, create the output variables listed below and delete any remaining variables.
 
-![](../.gitbook/assets/section-2/S2.4-8.png)"
+![](../.gitbook/assets/section-2/S2.4-8.png)
 
 20. On the left, click **Outputs**.
 
