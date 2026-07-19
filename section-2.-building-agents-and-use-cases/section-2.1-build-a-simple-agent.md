@@ -14,7 +14,7 @@ In this lab, you will talk through prompting several times. To learn more about 
 
    `All > AI Agent Studio > Overview`
 
-2. Locate **Active in your Organization**.
+2. Locate **Active in your Organization** (or Recent Agentic Workflows).
 
 3. Select the **AI Agents** tab, then click **Add > Chat**.
 
