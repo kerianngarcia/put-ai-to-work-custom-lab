@@ -374,16 +374,16 @@ Now open AI Agent Studio and build another AI Agent by duplicating **Incident So
 
 10. Open the existing **Get Similar Incident Records** flow action.
 
-11. Change the name to:
-
-```text
-Get Similar Incident Records and Outages
-```
-
-12. Select the flow action:
+11. Select the flow action:
 
 ```text
 [Your Initials] Get Similar Records and Outages
+```
+
+12. Change the name to:
+
+```text
+[Your Initials] Get Similar Incident Records and Outages
 ```
 
 ![](../.gitbook/assets/section-2/S2.4-22.png)"
