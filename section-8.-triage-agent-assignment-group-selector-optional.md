@@ -1,6 +1,8 @@
-# Section 8 - Triage Agent Assignment Group Selector (Optional)
+# Section 8 - Intelligent Campus Support Triage (Optional)
 
-In this optional section, you will build a custom assignment group prediction capability using Now Assist Skill Kit, AI Agents, and Agentic Workflows.
+In this optional section, you will build an intelligent campus support routing solution using Now Assist Skill Kit, AI Agents, and Agentic Workflows.
+
+The solution analyzes technology issues submitted by students, faculty, researchers, and staff, then recommends the most appropriate campus support team to resolve the issue.
 
 {% hint style="info" %}
 ### In this section, you will
