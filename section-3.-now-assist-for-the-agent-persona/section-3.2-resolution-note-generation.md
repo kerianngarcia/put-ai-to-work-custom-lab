@@ -20,7 +20,7 @@ In this exercise, you will use Now Assist to generate resolution notes and resol
     |---|---|
     | Resolution code | Solution provided |
 
-5. In the resolution notes box, click the **Now Assist** icon to generate resolution notes.
+5. In the resolution notes box, click the **Now Assist** icon to generate resolution notes. Click **Insert** to insert the resolution notes.
 
 6. Click **Resolve** to save the resolution to the ticket.
 
@@ -32,9 +32,9 @@ In this exercise, you will use Now Assist to generate resolution notes and resol
 
 7. Select the **Details** tab of the incident.
 
-8. Confirm that the generated resolution was copied to the **Resolution notes** field.
+8. Confirm that the incident state changed from **New** to **Resolved**.
 
-9. Confirm that the incident state changed from **New** to **Resolved**.
+9. Confirm that the generated resolution was copied to the **Resolution notes** field.
 
 {% hint style="info" %}
 **Bonus**
