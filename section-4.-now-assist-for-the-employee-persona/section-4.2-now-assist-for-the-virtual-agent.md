@@ -42,7 +42,7 @@ If you cannot see the Virtual Agent icon, you are probably not in Employee Cente
 
 6. Notice how Now Assist switches tracks and follows the change in conversation.
 
-7. Hover over the **Replacement laptop** option and click **Start Request**.
+7. Click on the **Replacement laptop** option and click **Start Request**.
 
 8. Respond to the questions as needed.
 
