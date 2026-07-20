@@ -68,3 +68,9 @@ If you cannot see the Virtual Agent icon, you are probably not in Employee Cente
 
 Congratulations. You tested search, engaged in a multi-turn conversation with Now Assist, and ordered a replacement laptop.
 
+{% hint style="info" %}
+**Reminder**
+
+Be sure to "End Impersonation" and return to the Service Operations Workspace.
+{% endhint %}
+
