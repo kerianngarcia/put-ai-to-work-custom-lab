@@ -12,7 +12,7 @@ In this exercise, you will use Now Assist to summarize a change request.
 
    ![](../.gitbook/assets/section-3/S3.4-1.png)
 
-4. From the list of open **Changes**, locate and select **CHG0044021**.
+4. From the list of open **Changes**, locate and select **CHG0000080**.
 
    ![](../.gitbook/assets/section-3/S3.4-2.png)
 
