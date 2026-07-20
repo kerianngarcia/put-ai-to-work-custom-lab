@@ -27,29 +27,46 @@ In this exercise, you will use Now Assist for Creator to generate a playbook fro
 4. Copy and paste the following text into the description field.
 
    ```text
-   Step 1 - Pre-Intake (GCR-Creative)
-   - Review the upcoming GCR roadmap to identify expected creative needs.
-   - Create placeholder projects for resource and skill forecasting.
-
-   Step 2 - Project Intake (Requestors)
-   - Creative requests submitted via the Parent GCR intake system (Jira).
-   - Each Jira ticket generates a linked Jira Child ticket for GCR Creative's workflow.
-
-   Step 3 - Resource Review (Creative Leads)
-   - Weekly review of capacity and assign resources by skill, role, and availability.
-
-   Step 4 - Project Kick-Off (Creative Leads and Team Members)
-   - Finalize the creative brief, set milestones, confirm deliverables, and assign ownership.
-
-   Step 5 - Concept and Create (Creative Team Members)
-   - Execute tasks in alignment with the agreed timelines and quality standards.
-
-   Step 6 - Review and Delivery (Creative Leads)
-   - Review, approve, and deliver assets.
-
-   Step 7 - Reporting and Finance Tracking (Creative Leads, Managers, and Finance/Operations)
-   - Capture time spent, cost, and resource utilization data.
-   - Link spend to specific initiatives, reconcile with finance systems, and update stakeholders.
+   Step 1 - Concern Intake (Faculty, Staff, Students, and Student Care Team)
+   - Submit a student concern through the Student Support portal.
+   - Review the submitted concern and validate available information.
+   - Create a Student of Concern case record.
+   
+   Step 2 - Initial Risk Assessment (Student Care Team)
+   - Assess the reported behavior and available case details.
+   - Determine whether the case presents Low, Medium, or High risk.
+   - Escalate emergency situations to Campus Safety for immediate response.
+   
+   Step 3 - Parallel Case Review (Academic Advising, Residence Life, Counseling Services, Disability Services, and Student Affairs)
+   - Academic Advising reviews academic performance, attendance trends, and faculty concerns.
+   - Residence Life reviews housing incidents, resident assistant observations, and community concerns.
+   - Counseling Services reviews previous support interactions and outreach opportunities.
+   - Disability Services determines whether accommodations or support plans exist.
+   - Student Affairs reviews conduct history and prior intervention records.
+   
+   Step 4 - Multidisciplinary Case Review (Student Affairs, Counseling Services, Academic Advising, Residence Life, and Campus Safety)
+   - Review findings gathered from all participating departments.
+   - Assess overall student risk and support needs.
+   - Determine the appropriate intervention strategy and assign ownership.
+   
+   Step 5 - Intervention Planning and Execution (Assigned Support Teams)
+   - Initiate counseling referrals and outreach activities when appropriate.
+   - Create academic success plans and advisor follow-up activities when needed.
+   - Launch conduct management activities when policy violations are identified.
+   - Coordinate wellness checks and additional support services as required.
+   - Execute multiple intervention activities concurrently based on the student's needs.
+   
+   Step 6 - Ongoing Monitoring (Student Care Team and Assigned Departments)
+   - Monitor student progress and engagement with assigned services.
+   - Collect status updates from participating departments on a recurring basis.
+   - Track completion of intervention activities and follow-up tasks.
+   - Escalate the case if new concerns or risk indicators emerge.
+   
+   Step 7 - Case Closure and Outcome Reporting (Student Affairs, Student Care Team, and Leadership)
+   - Conduct a final review of interventions, outcomes, and recommendations.
+   - Document services utilized, case resolution details, and follow-up guidance.
+   - Close the Student of Concern case.
+   - Generate leadership reports and trend analysis for continuous improvement.
    ```
 
    ![](../.gitbook/assets/section-6/S6.1-3.png)
