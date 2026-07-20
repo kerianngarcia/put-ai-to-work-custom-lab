@@ -69,18 +69,12 @@ In this exercise, you will use Now Assist for Creator to generate a playbook fro
    - Generate leadership reports and trend analysis for continuous improvement.
    ```
 
-   ![](../.gitbook/assets/section-6/S6.1-3.png)
+5. Give your playbook a name.
 
-   ![](../.gitbook/assets/section-6/S6.1-4.png)
+6. Click **Generate flow preview**.
 
-5. Enter a flow name.
-
-6. In **Attach an Image**, select the file you downloaded.
-
-7. Click **Generate flow preview**.
-
-8. Review the generated flow.
+7. Review the generated flow.
 
    Now Assist for Creator gives you a jumpstart on playbook development.
 
-9. When you are finished, click **Discard playbook**.
+8. When you are finished, click **Discard playbook**.
