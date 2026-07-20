@@ -54,25 +54,27 @@ In this exercise, you will create flows from a text prompt and from an image.
 
 7. When you are finished, click **Discard flow**.
 
-   ![](../.gitbook/assets/section-6/S6.2-4.png)
+  
 
 ## Generate a Flow from an Image
 
 8. Download the image shown below.
 
+   ![](../.gitbook/assets/section-6/S6.2-4.png)
+
+10. Return to the Workflow Studio tab.
+
+11. Select **New > Flow**.
+
    ![](../.gitbook/assets/section-6/S6.2-5.png)
 
-9. Return to the Workflow Studio tab.
+13. Provide a name for the new flow.
 
-10. Select **New > Flow**.
-
-11. Provide a name for the new flow.
-
-12. Upload the image.
+14. Upload the image.
 
     ![](../.gitbook/assets/section-6/S6.2-6.png)
 
-13. Click **Generate flow preview**.
+15. Click **Generate flow preview**.
 
 {% hint style="info" %}
 **Note**
