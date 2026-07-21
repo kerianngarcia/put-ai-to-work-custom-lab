@@ -14,13 +14,13 @@ Before using the skill in an AI Agent, validate the output and publish the skill
    INC0099969
    ```
 
-   This sample incident represents a campus technology issue.
+   For this lab, imagine a faculty member reports Canvas assignments are not loading and students are unable to submit coursework.
 
 3. Click **Run Test** again.
 
    ![](../.gitbook/assets/section-8/S8.2-1.png)
 
-4. Review the generated output.
+4. Review the generated output. The exact assignment group returned will vary based on the assignment groups available in your instance.
 
    Example:
 
@@ -34,7 +34,7 @@ Before using the skill in an AI Agent, validate the output and publish the skill
 
 5. Verify that the predicted assignment group is appropriate for the incident.
 
-   In this example, the skill selected the **Hardware** assignment group with a high confidence score.
+   For a Canvas-related issue, the skill should typically select a group whose responsibilities include software support, application support, enterprise applications, or learning technologies, depending on the assignment groups available in your instance.
 
 6. Optionally test additional incidents to observe how the prediction changes based on incident content.
 
