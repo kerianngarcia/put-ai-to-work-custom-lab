@@ -6,28 +6,33 @@ Give your script the exact name \*\*LookupIncident\*\* and write your own script
 
 ```javascript
 (function runScript(context) {
-var incidentNumber = context.getValue('incidentnumber');
-var result = {
-short\_description: '',
-description: '',
-found: false
-};
-if (!incidentNumber) {
-gs.warn('[IncidentLookup] No incident\_number provided');
-return result;
-}
-var gr = new GlideRecord('incident');
-gr.addQuery('number', incidentNumber);
-gr.setLimit(1);
-gr.query();
-if (gr.next()) {
-result.short\_description = gr.getValue('short\_description') || '';
-result.description = gr.getValue('description') || '';
-result.found = true;
-} else {
-gs.warn('[IncidentLookup] No incident found for number=' + incidentNumber);
-}
-return result;
+    var incidentNumber = context.getValue('incidentnumber');
+
+    var result = {
+        short_description: '',
+        description: '',
+        found: false
+    };
+
+    if (!incidentNumber) {
+        gs.warn('[IncidentLookup] No incident_number provided');
+        return result;
+    }
+
+    var gr = new GlideRecord('incident');
+    gr.addQuery('number', incidentNumber);
+    gr.setLimit(1);
+    gr.query();
+
+    if (gr.next()) {
+        result.short_description = gr.getValue('short_description') || '';
+        result.description = gr.getValue('description') || '';
+        result.found = true;
+    } else {
+        gs.warn('[IncidentLookup] No incident found for number=' + incidentNumber);
+    }
+
+    return result;
 })(context);
 ```
 
