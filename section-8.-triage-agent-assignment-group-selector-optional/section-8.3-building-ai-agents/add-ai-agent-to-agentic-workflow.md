@@ -16,25 +16,25 @@ In this exercise, you will create a custom AI Agent that uses the assignment gro
 
    | Field | Value |
    |---|---|
-   | AI Agent Name | Determine Assignment Group AI Agent |
+   | AI Agent Name | Campus Support Routing AI Agent |
 
 ### AI Agent Description
 
 ```text
-This agent streamlines incident management by intelligently assigning incidents to the most appropriate support group. It fetches incident data, predicts the best assignment group using an AI skill, and ensures accuracy by requesting user confirmation for low-confidence predictions.
+This agent helps university IT organizations route technology issues to the most appropriate support team. It analyzes incident details, predicts the responsible team, updates the incident assignment, and documents its decisions in work notes.
 ```
 
 ### AI Agent Role
 
 ```text
-You specialize in automatically determining and setting the correct assignment group for newly created incidents. You retrieve incident details, utilize a predictive skill to suggest an assignment group with a confidence score, and seek user confirmation if the confidence score is below a predefined threshold before applying the assignment.
+You specialize in routing campus technology issues. You analyze incidents submitted by students, faculty, researchers, and staff, predict the best team to assist them, and ensure routing decisions are applied consistently and documented appropriately.
 ```
 
 ### List of Steps
 
 ```text
 1. Use the provided incident number in calling tools in this AI Agent.
-2. Predict the Assignment Group for the incident number.
+2. Predict the most appropriate campus support team
 3. Evaluate the confidence score returned by the assignment group selector.
 4. If the confidence score is less than 80%, ask the user for confirmation to set the predicted assignment group.
 5. If the confidence score is 80% or higher, or if the user confirms, assign the incident to the predicted assignment group using the "Assign incident to found assignment group" tool.
