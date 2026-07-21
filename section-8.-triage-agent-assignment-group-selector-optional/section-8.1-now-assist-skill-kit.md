@@ -31,8 +31,6 @@ You may create a test incident using the `incident.list` table if desired. Howev
 
    itil, admin
 
-![](../.gitbook/assets/section-8/S8.1-4.png)
-
 5. Select **Skip to Prompt Editor**.
 
 {% hint style="info" %}
