@@ -20,10 +20,10 @@ You will review the Express List, expand the alert view, learn how alerts and al
 
 ## Labs
 
-### [Section 5.1 Alert Express List](section-5.1-alert-express-list.md)
+### [Section 5.1 Alert Express List](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-5.-now-assist-for-the-it-ops-agent/section-5.1-alert-express-list)
 
 Open the Express List and review how alerts and alert groups appear to an operator.
 
-### [Section 5.2 Alert Analysis](section-5.2-alert-analyzation.md)
+### [Section 5.2 Alert Analyzation](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-5.-now-assist-for-the-it-ops-agent/section-5.2-alert-analyzation)
 
 Use Now Assist for ITOM to analyze an alert group and review the generated explanation.
