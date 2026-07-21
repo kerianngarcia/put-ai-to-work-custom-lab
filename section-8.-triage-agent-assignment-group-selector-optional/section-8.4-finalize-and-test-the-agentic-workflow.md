@@ -55,10 +55,16 @@ The final configuration steps must be completed before the Agentic Workflow can 
 
 10. Test the workflow using one of the following options:
 
-    - Create a new incident.
-    - Use an existing incident in testing mode.
+   - Create a new incident.
+   - Use an existing incident in testing mode.
+   - Consider testing with higher education scenarios such as:
+     - Student cannot access Canvas
+      - Faculty gradebook synchronization issue
+      - Researcher unable to access secure storage
+      - Staff member unable to access Workday
+      - Classroom technology outage
 
-11. Execute the workflow and review the results.
+11. Observe how the workflow identifies the impacted service and routes the issue to the appropriate support team.
 
     ![](https://raw.githubusercontent.com/kerianngarcia/put-ai-to-work-custom-lab/main/.gitbook/assets/recovered-19a93a5b58e23c.png)
 
