@@ -28,7 +28,6 @@ Before using the skill in an AI Agent, validate the output and publish the skill
    {
      "name": "Predicted Assignment Group",
      "sys_id": "Group Sys ID",
-     "confidence": "94%"
    }
    ```
 
