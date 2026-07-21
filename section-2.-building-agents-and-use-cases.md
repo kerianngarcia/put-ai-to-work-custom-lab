@@ -20,18 +20,18 @@ You will create a simple agent, add tools, connect the agent to an agentic workf
 
 ## Labs
 
-### Section 2.1 Build a Simple Agent
+### [Section 2.1 Build a Simple Agent](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-2.-building-agents-and-use-cases/section-2.1-build-a-simple-agent)
 
 Create a basic AI Agent and review its core configuration.
 
-### [Section 2.2 Build an Agent with Tools](section-2.2-build-an-agent-with-tools.md)
+### [Section 2.2 Build an Agent with Tools](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-2.-building-agents-and-use-cases/section-2.2-build-an-agent-with-tools)
 
 Extend the Agent by adding tools it uses to complete work.
 
-### [Section 2.3 Wrap Your Agent in an Agentic Workflow](section-2.3-wrap-your-agent-in-an-agentic-workflow.md)
+### [Section 2.3 Wrap Your Agent in an Agentic Workflow](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-2.-building-agents-and-use-cases/section-2.3-wrap-your-agent-in-an-agentic-workflow)
 
 Connect the Agent to a workflow that coordinates multiple steps.
 
-### [Section 2.4 Optional: Build an AI Agent That Checks Outages in Similar Incidents](section-2.4-optional-build-an-ai-agent-that-checks-outages-in-similar-incidents.md)
+### [Section 2.4 Optional: Build an AI Agent That Checks Outages in Similar Incidents](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-2.-building-agents-and-use-cases/section-2.4-optional-build-an-ai-agent-that-checks-outages-in-similar-incidents)
 
 Build a more advanced Agent that reviews related incidents for possible outages.
