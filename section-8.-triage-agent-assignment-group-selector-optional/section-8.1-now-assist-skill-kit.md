@@ -76,11 +76,12 @@ Notice the references enclosed in double braces (`{{ }}`). These values will be 
    from a provided candidate list. You must return your answer as strict JSON.
    
    ## Incident
+   
    Short Description:
-    {{LookupIncident.output.short_description}} 
+   {{LookupIncident.output.short_description}}
    
    Description:
-    {{LookupIncident.output.description}} 
+   {{LookupIncident.output.description}}
    
    ## Candidate assignment groups
    
@@ -88,46 +89,45 @@ Notice the references enclosed in double braces (`{{ }}`). These values will be 
    Each item has a sys_id, a name, and a description of the group's
    responsibilities.
    
-    {{assignmentgroup.output}} 
+   {{assignmentgroup.output}}
+   
+   ## Campus Technology Context
+   
+   Many incidents may originate from students, faculty, researchers, or staff at a university.
+   
+   Common higher education technology services include:
+   
+   - Learning Management Systems (Canvas, Blackboard, Moodle)
+   - Video and classroom collaboration platforms
+   - Microsoft 365 services
+   - Identity and access management systems
+   - Research computing resources
+   - Administrative applications
+   - Classroom technology
+   
+   When evaluating incidents involving higher education technology services:
+   
+   - Focus on the underlying technology issue rather than the individual reporting the issue.
+   - Use only the assignment groups provided in the candidate list.
+   - Do not invent assignment groups.
+   - Match the incident to the assignment group whose responsibilities most closely align with the affected technology or service.
+   
+   Examples:
+   
+   - Canvas access problems, gradebook issues, course delivery issues, assignment submission failures, or learning platform outages should be routed to the group responsible for software applications, enterprise applications, business applications, or application support if such a group exists.
+   - Microsoft 365 issues, collaboration platform issues, and productivity application issues should be routed to the group responsible for software or application support if such a group exists.
+   - Account lockouts, authentication failures, password resets, or access requests should be routed to the group responsible for identity, access, or service desk functions if such a group exists.
+   - Laptop, desktop, classroom device, projector, printer, or peripheral failures should be routed to the group responsible for hardware support if such a group exists.
+   - Network, wireless, VPN, internet connectivity, or communication issues should be routed to the group responsible for network support if such a group exists.
    
    ## How to choose
    
    1. Read the short description and description together to identify:
-      - The affected service, system, or technology (e.g. database, network,
-        hardware, software, LDAP, change request, problem record).
-      - The type of work required (e.g. troubleshooting, approval, access
-        request, configuration change).
-      - Any location or scope signals (e.g. "New York database", "Atlanta DB").
+      - The affected service, system, or technology.
+      - The type of work required.
+      - Any location or scope signals.
    
-   2. For each candidate group, weigh how well its name and description align
-      with the incident. Prefer the most specialized group whose responsibilities
-      explicitly cover the issue. Avoid generic catch-all groups unless no
-      specialist group fits.
-   
-   3. If two groups are close, prefer the one whose description directly names
-      the technology, service, or location mentioned in the incident.
-   
-   4. If no group is a clear specialist match, fall back to a general service
-      desk or help desk group present in the candidate list. Do not invent a
-      group.
-   5. self rate the confidence of your selection as a percentage number
-   
-   ## Output format
-   
-   Return ONLY a single JSON object with exactly these three fields and nothing
-   else. No prose, no markdown fences, no comments, no trailing commas.
-   
-   {
-     "name": "<exact name copied from the chosen candidate>",
-     "sys_id": "<exact sys_id copied from the chosen candidate>",
-     "confidence": "90%"
-   }
-   
-   Hard rules:
-   - The sys_id MUST be copied verbatim from one entry in the candidate list.
-   - The name MUST be copied verbatim from the same entry.
-   - Do not output any group that is not in the candidate list.
-   - Do not output explanations, reasoning, or apologies. JSON only.
+   2. For each candidate group, weigh how well its name and description align with the incident. Prefer the most specialized group whose responsibilities explicitly cover the issue. Avoid generic catch-all groups unless no specialist group fits.
    ```
 
 10. Go to the “Add tools” tab to add tools. 
