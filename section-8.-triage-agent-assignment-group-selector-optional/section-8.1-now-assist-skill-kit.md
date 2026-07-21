@@ -20,8 +20,8 @@ You may create a test incident using the `incident.list` table if desired. Howev
 
    | Field | Value |
    |---------|---------|
-   | Skill name | Assignment group selector |
-   | Description | This skill selects assignment groups based on information in the incident |
+   | Skill name | Campus Support Routing Assistant |
+   | Description | This skill analyzes campus technology incidents and predicts the support team best equipped to resolve the issue |
    | Default provider | Azure OpenAI |
    | Default provider API | Chat Completions |
 
