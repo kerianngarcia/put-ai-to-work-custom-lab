@@ -25,17 +25,11 @@ You may create a test incident using the `incident.list` table if desired. Howev
    | Default provider | Azure OpenAI |
    | Default provider API | Chat Completions |
 
-![](../.gitbook/assets/section-8/S8.1-2.png)
-
 3. Scroll down to **Apply role restrictions to skill**.
 
-4. Add the following role:
+4. Add the following roles:
 
-   ```text
-   itil
-   ```
-
-![](../.gitbook/assets/section-8/S8.1-3.png)
+   itil, admin
 
 ![](../.gitbook/assets/section-8/S8.1-4.png)
 
