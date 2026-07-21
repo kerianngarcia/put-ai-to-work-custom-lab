@@ -14,7 +14,7 @@ Before using the skill in an AI Agent, validate the output and publish the skill
    INC0099969
    ```
 
-   This sample incident contains a printer-related issue.
+   This sample incident represents a campus technology issue.
 
 3. Click **Run Test** again.
 
@@ -26,9 +26,9 @@ Before using the skill in an AI Agent, validate the output and publish the skill
 
    ```json
    {
-     "name": "Hardware",
-     "sys_id": "8a5055c9c61122780043563ef53438e3",
-     "confidence": "95%"
+     "name": "Predicted Assignment Group",
+     "sys_id": "Group Sys ID",
+     "confidence": "94%"
    }
    ```
 
