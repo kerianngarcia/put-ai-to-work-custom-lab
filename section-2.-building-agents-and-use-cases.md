@@ -20,7 +20,7 @@ You will create a simple agent, add tools, connect the agent to an agentic workf
 
 ## Labs
 
-### [Section 2.1 Build a Simple Agent](section-2.1-build-a-simple-agent.md)
+### [Section 2.1 Build a Simple Agent](Section-2.1-Build-a-Simple-Agent.md)
 
 Create a basic AI Agent and review its core configuration.
 
