@@ -1,6 +1,6 @@
 # Triage and Categorize ITSM Incidents
 
-In this exercise, you will review the out-of-the-box (OOTB) **Triage and Categorize ITSM Incidents** Agentic Workflow, learn how it is constructed, and test its behavior before creating your own modified version.
+In this exercise, you will review the out-of-the-box (OOTB) Triage and Categorize ITSM Incidents Agentic Workflow, learn how it is constructed, and explore how the workflow could support campus technology operations.
 
 ![](../../.gitbook/assets/section-8/S8.3.1-2.png)
 
@@ -93,6 +93,17 @@ In this exercise, you will review the out-of-the-box (OOTB) **Triage and Categor
 | Read-only configuration | OOTB workflows and agents are protected from direct modification. |
 | Testing experience | Agentic Workflows can be validated directly within the testing console. |
 | AI Agent collaboration | Each AI Agent performs a specific task within the larger workflow. |
+
+
+Think about how this workflow could support:
+- Student technology support
+- Faculty technology support
+- Research computing operations
+- Administrative systems support
+- Classroom technology services
+
+The workflow pattern remains the same regardless of the campus support organization.
+
 
 ## Completion
 
