@@ -22,10 +22,10 @@ You will use AI Search to answer an employee question, then continue into a Now 
 
 ## Labs
 
-### [Section 4.1 Superpowered Search](section-4.1-superpowered-search.md)
+### [Section 4.1 Superpowered Search](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-4.-now-assist-for-the-employee-persona/section-4.1-superpowered-search)
 
 Use Now Assist for AI Search to generate a direct answer from knowledge content.
 
-### [Section 4.2 Now Assist for the Virtual Agent](section-4.2-now-assist-for-the-virtual-agent.md)
+### [Section 4.2 Now Assist for the Virtual Agent](https://app.gitbook.com/o/8pQyetFhMJ8uY1uwahr6/sites/site_ljvBl/s/J2kK2SyWm9jvlwKv3zVE/section-4.-now-assist-for-the-employee-persona/section-4.2-now-assist-for-the-virtual-agent)
 
 Use Now Assist for Virtual Agent to support a multi-turn employee conversation.
