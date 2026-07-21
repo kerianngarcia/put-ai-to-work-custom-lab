@@ -22,23 +22,11 @@ In this exercise, you will use Now Assist to summarize an incident and post the 
 
 ![](../.gitbook/assets/section-3/S3.1-3.png)
 
-4. In the incident list, select the **Filter** button with the GenAI sparkle icon in the upper-left area.
+4. In the incident list, click the search button (magnifying glass) in the upper-left area.
 
-![](../.gitbook/assets/section-3/S3.1-4.png)
+5. Search "versioning errors".
 
-5. Select and copy the following query and watch Now Assist create the filter for you.
-
-```text
-Any incident that has a description that contains Versioning errors
-```
-
-![](../.gitbook/assets/section-3/S3.1-5.png)
-
-6. Select **Apply** to process the query.
-
-![](../.gitbook/assets/section-3/S3.1-6.png)
-
-9. Select the incident link.
+6. Select the incident link.
 
    Your incident number may be different from the one shown. Open the incident in Service Operations Workspace by clicking the incident number.
 
@@ -46,11 +34,11 @@ Any incident that has a description that contains Versioning errors
 
 ## Generate the Incident Summary
 
-10. Select **Summarize** to use generative AI to summarize the incident.
+7. Select **Summarize** to use generative AI to summarize the incident.
 
 ![](../.gitbook/assets/section-3/S3.1-8.png)
 
-11. Review the generated summary.
+8. Review the generated summary.
 
     The summarization skill analyzes the short description, description, work notes, and related records before generating the issue, SLAs, impacted services, and actions taken up to that point.
 
@@ -60,7 +48,7 @@ Any incident that has a description that contains Versioning errors
 Your incident summarization may look slightly different from the screenshot shown.
 {% endhint %}
 
-12. Notice the icons at the bottom of the generated response.
+9. Notice the icons at the bottom of the generated response.
 
 | Icon or action | Purpose |
 |---|---|
@@ -68,19 +56,19 @@ Your incident summarization may look slightly different from the screenshot show
 | Copy | Copy the generated summary to the clipboard. |
 | Regenerate | Generate a new version of the summary. |
 
-13. Add the generated summary to the work notes by selecting **Share**.
+10. Add the generated summary to the work notes by selecting **Share**.
 
 ![](../.gitbook/assets/section-3/S3.1-10.png)
 
-14. Edit the summary by adding a bulleted item.
+11. Edit the summary by adding a bulleted item.
 
-15. Select **Save to work notes**.
+12. Select **Save to work notes**.
 
 {% hint style="info" %}
 If the customer has opted into data sharing, edits to the generated response are also sent to the Now LLM for fine-tuning.
 {% endhint %}
 
-16. Expand the work note activity stream to confirm that your edits were copied.
+13. Expand the work note activity stream to confirm that your edits were copied.
 
 ![](../.gitbook/assets/section-3/S3.1-11.png)
 
