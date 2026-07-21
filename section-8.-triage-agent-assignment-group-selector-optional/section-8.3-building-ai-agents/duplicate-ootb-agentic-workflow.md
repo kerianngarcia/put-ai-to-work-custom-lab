@@ -26,7 +26,7 @@ In this exercise, you will create a copy of the out-of-the-box (OOTB) **Triage a
 5. Replace the workflow description with the following text.
 
    ```text
-   This agentic workflow enables fulfillers to identify the category, subcategory, service, offering, configuration item and assignment group for an incident automatically, and finally link a major incident or problem.
+   This agentic workflow enables campus technology teams to automatically classify technology issues, identify affected services, determine the most appropriate support team, and identify related incidents or known problems.
    ```
 
 ## Update the Workflow Steps
@@ -51,9 +51,9 @@ In this exercise, you will create a copy of the out-of-the-box (OOTB) **Triage a
       - Execute the "Classify Service and CI AI Agent" agent.
       - Purpose: Determine the correct service, service offering, and configuration item (CI) for the incident.
 
-   3. Determine Assignment Group
+   3. Determine Campus Support Team
       - Execute the "Determine Assignment Group AI Agent" agent.
-      - Purpose: Determine the correct assignment group for the incident.
+      - Purpose: Determine the correct support team for the incident.
 
    4. Link Major Incident or Problem
       - Execute the "Link Major Incident or Problem AI Agent" agent.
