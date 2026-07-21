@@ -5,32 +5,41 @@ Following the previous steps to add another script tool, this time name it \*\*a
 
       ```javascript
       (function runScript(context) {
-      var groups = [];
-      // Resolve the sys\_id of the 'itil' group type (avoid hardcoding)
-      var itilTypeSysId = '';
-      var typeGR = new GlideRecord('sys\_user\_group\_type');
-      typeGR.addQuery('name', 'itil');
-      typeGR.setLimit(1);
-      typeGR.query();
-      if (typeGR.next()) {
-      itilTypeSysId = typeGR.getUniqueValue();
-      }
-      // Query: active=true AND (type IS EMPTY OR type CONTAINS itil)
-      var gr = new GlideRecord('sys\_user\_group');
-      gr.addActiveQuery();
-      var qc = gr.addNullQuery('type');
-      if (itilTypeSysId) {
-      qc.addOrCondition('type', 'CONTAINS', itilTypeSysId);
-      }
-      gr.query();
-      while (gr.next()) {
-      groups.push({
-      sys\_id: gr.getUniqueValue(),
-      name: gr.getValue('name') || '',
-      description: gr.getValue('description') || ''
-      });
-      }
-      return JSON.stringify(groups);
+          var groups = [];
+      
+          // Resolve the sys_id of the 'itil' group type (avoid hardcoding)
+          var itilTypeSysId = '';
+      
+          var typeGR = new GlideRecord('sys_user_group_type');
+          typeGR.addQuery('name', 'itil');
+          typeGR.setLimit(1);
+          typeGR.query();
+      
+          if (typeGR.next()) {
+              itilTypeSysId = typeGR.getUniqueValue();
+          }
+      
+          // Query: active=true AND (type IS EMPTY OR type CONTAINS itil)
+          var gr = new GlideRecord('sys_user_group');
+          gr.addActiveQuery();
+      
+          var qc = gr.addNullQuery('type');
+      
+          if (itilTypeSysId) {
+              qc.addOrCondition('type', 'CONTAINS', itilTypeSysId);
+          }
+      
+          gr.query();
+      
+          while (gr.next()) {
+              groups.push({
+                  sys_id: gr.getUniqueValue(),
+                  name: gr.getValue('name') || '',
+                  description: gr.getValue('description') || ''
+              });
+          }
+      
+          return JSON.stringify(groups);
       })(context);
       ```
 
